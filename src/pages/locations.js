@@ -53,7 +53,7 @@ export default function Locations() {
       </div>
       <Areas>
         <div className="container areas">
-          <div className="location">
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-alpine-nj">
                 Alpine, NJ
@@ -73,7 +73,7 @@ export default function Locations() {
                 Annapolis, MD
               </Link>
             </p>
-          </div>
+          </div> */}
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-atlanta-ga">
@@ -81,18 +81,18 @@ export default function Locations() {
               </Link>
             </p>
           </div>
-          <div className="location">
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-jacksonville-fl">
                 Jacksonville, FL
               </Link>
             </p>
-          </div>
-          <div className="location">
+          </div> */}
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-miami-fl">Miami, FL</Link>
             </p>
-          </div>
+          </div> */}
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-las-vegas-nv">
@@ -100,19 +100,19 @@ export default function Locations() {
               </Link>
             </p>
           </div>
-          <div className="location">
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-phoenix-az">
                 Phoenix, AZ
               </Link>
             </p>
-          </div>
+          </div> */}
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-tampa-fl">Tampa, FL</Link>
             </p>
           </div>
-          <div className="location">
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-san-diego-ca">
                 San Diego, CA
@@ -209,7 +209,7 @@ export default function Locations() {
                 Key West, FL
               </Link>
             </p>
-          </div>
+          </div> */}
         </div>
       </Areas>
       <Footer />
