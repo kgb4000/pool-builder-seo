@@ -9,7 +9,7 @@ import SEO from '../../next-seo.config'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({ gtmId: 'GTM-K5LS529' })
+    TagManager.initialize({ gtmId: 'GTM-PMPN3FHD' })
   }, [])
 
   return (

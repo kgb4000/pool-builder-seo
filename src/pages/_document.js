@@ -19,10 +19,6 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="outFGrWvqT_oGbQbVv9XooWxpm8G6nZrI9WwNb56hIw"
           />
-          <meta
-            name="facebook-domain-verification"
-            content="i55dj20gvf42yxgud4z0twmyav2jya"
-          />
         </Head>
         <body>
           <Main />
