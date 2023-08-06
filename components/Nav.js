@@ -3,7 +3,18 @@ import Link from 'next/link'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
-const Nav = () => {
+const Nav = ({
+  homeLink,
+  homeText,
+  serviceLink,
+  serviceText,
+  whyMeLink,
+  whyMeText,
+  faqLink,
+  faqtext,
+  blogLink,
+  blogText,
+}) => {
   return (
     <>
       <header>
@@ -21,13 +32,16 @@ const Nav = () => {
           <nav>
             <ul className="nav">
               <li>
-                <Link href="/#services">Services</Link>
+                <Link href={homeLink}>{homeText}</Link>
               </li>
               <li>
-                <Link href="/#me">Why Me</Link>
+                <Link href={serviceLink}>{serviceText}</Link>
               </li>
               <li>
-                <Link href="/#faq">FAQs</Link>
+                <Link href={whyMeLink}>{whyMeText}</Link>
+              </li>
+              <li>
+                <Link href={faqLink}>{faqtext}</Link>
               </li>
               <li>
                 <Link href="/blog">Blog</Link>

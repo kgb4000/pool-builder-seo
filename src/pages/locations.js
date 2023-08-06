@@ -12,20 +12,31 @@ export default function Locations() {
   const SEO = {
     title:
       'I Help Pool Builders in These Locations | Pool Builder SEO Consultant',
-    description: `I work with pool companies in these cities.`,
+    description: `I work with pool companies in these cities. Let's work together to increase the online visibility of your pool company.`,
     type: 'website',
     canonical: 'https://poolbuilderseoconsultant.com/locations',
     openGraph: {
       title:
         'I Help Pool Builders in These Locations | Pool Builder SEO Consultant',
-      description: 'I work with pool companies in these cities.',
+      description: `I work with pool companies in these cities. Let's work together to increase the online visibility of your pool company.`,
       type: 'website',
     },
   }
   return (
     <>
       <NextSeo noindex={true} {...SEO} />
-      <Nav />
+      <Nav
+        homeLink="/"
+        homeText="Home"
+        serviceLink="/#services"
+        serviceText="SEO Services"
+        whyMeLink="#me"
+        whyMeText="Why Me"
+        faqLink="#faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">Locations</h1>

@@ -10,7 +10,18 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 export default function Home() {
   return (
     <>
-      <Nav />
+      <Nav
+        homeLink="/"
+        homeText="Home"
+        serviceLink="#services"
+        serviceText="SEO Services"
+        whyMeLink="#why-me"
+        whyMeText="Why Me"
+        faqLink="#faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">
@@ -474,7 +485,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="me">
+      <section id="why-me">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -553,7 +564,7 @@ export default function Home() {
           </Deliverables>
           <Deliverables>
             <img
-              src="/images/black-man.png"
+              src="/images/black-seo-expert.png"
               alt="I know what I'm doing."
               title="I know what I'm doing."
               loading="lazy"

@@ -27,7 +27,18 @@ export default function LasVegasNV() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Nav />
+      <Nav
+        homeLink="/swimming-pool-company-seo-las-vegas-nv"
+        homeText="Home"
+        serviceLink="/#services"
+        serviceText="SEO Services"
+        whyMeLink="#me"
+        whyMeText="Why Me"
+        faqLink="#faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">
@@ -244,7 +255,7 @@ export default function LasVegasNV() {
           </div>
         </div>
       </section>
-      <section id="services">
+      <section id="las-vegas-seo-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -519,7 +530,7 @@ export default function LasVegasNV() {
           </div>
         </div>
       </section>
-      <section id="me">
+      <section id="why-choose-me-las-vegas">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -743,7 +754,7 @@ export default function LasVegasNV() {
           </div>
         </div>
       </section>
-      <section id="faq">
+      <section id="las-vegas-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors

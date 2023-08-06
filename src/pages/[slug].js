@@ -60,7 +60,16 @@ export default function Articles({ post }) {
 
   return (
     <>
-      <Nav />
+      <Nav
+        serviceLink="/#services"
+        serviceText="SEO Services"
+        whyMeLink="/#me"
+        whyMeText="Why Me"
+        faqLink="/#faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <ArticleJsonLd
         url={`https://poolbuilderseoconsultant.com/${post.slug}`}
         title={post.title}

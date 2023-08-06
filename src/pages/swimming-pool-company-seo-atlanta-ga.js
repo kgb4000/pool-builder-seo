@@ -27,7 +27,16 @@ export default function AtlantaGA() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Nav />
+      <Nav
+        homeLink="/swimming-pool-company-seo-atlanta-ga"
+        homeText="Home"
+        serviceLink="#atlservices"
+        serviceText="ATL SEO Services"
+        whyMeLink="#atl-why-me"
+        whyMeText="Why Me"
+        faqLink="#atlFaq"
+        faqtext="FAQ"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">
@@ -329,7 +338,7 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <section id="services">
+      <section id="atlservices">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -590,7 +599,7 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <section id="me">
+      <section id="atl-why-me">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -814,7 +823,7 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <FAQ>
+      <FAQ id="atlFaq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors

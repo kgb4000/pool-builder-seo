@@ -18,7 +18,7 @@ export default function TampaFL() {
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-tampa-fl',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Tampa FL |  I Help Grow Your Business',
+        'Swimming Pool SEO for Companies in Tampa FL | I Help Grow Your Business',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Tampa will set you on the path to success. Book a free call today!',
       type: 'website',
@@ -27,7 +27,18 @@ export default function TampaFL() {
   return (
     <>
       <NextSeo {...SEO} />
-      <Nav />
+      <Nav
+        homeLink="/swimming-pool-company-seo-tampa-fl"
+        homeText="Home"
+        serviceLink="#tampa-seo-services"
+        serviceText="Tampa SEO Services"
+        whyMeLink="#why-me-tampa"
+        whyMeText="Why Me"
+        faqLink="#tampa-faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">
@@ -244,7 +255,7 @@ export default function TampaFL() {
           </div>
         </div>
       </section>
-      <section id="services">
+      <section id="tampa-seo-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -518,7 +529,7 @@ export default function TampaFL() {
           </div>
         </div>
       </section>
-      <section id="me">
+      <section id="why-me-tampa">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -742,7 +753,7 @@ export default function TampaFL() {
           </div>
         </div>
       </section>
-      <section id="faq">
+      <section id="tampa-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors

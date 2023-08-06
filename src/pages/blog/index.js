@@ -44,7 +44,16 @@ export default function Blog({ data }) {
         description="Read posts and articles that can help you improve your pool business to attract more leads and customers to your business."
       />
       <NextSeo {...SEO} />
-      <Nav />
+      <Nav
+        serviceLink="/#services"
+        serviceText="SEO Services"
+        whyMeLink="/#me"
+        whyMeText="Why Me"
+        faqLink="/#faq"
+        faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
+      />
       <div className="hero">
         <div className="container">
           <h1 className="title">SEO Blog for Pool Companies</h1>
