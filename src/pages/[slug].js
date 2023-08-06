@@ -7,6 +7,7 @@ import { ShareBtn } from '../../components/Share-Btns'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import styled from 'styled-components'
+import { BiCalendar, BiStopwatch } from 'react-icons/bi'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -82,6 +83,33 @@ export default function Articles({ post }) {
             title={post.title}
             loading="lazy"
           />
+          <div className="blog-info">
+            <div className="date-time">
+              <div className="date">
+                <BiCalendar />
+                <p>
+                  {new Date(post.date).toLocaleDateString('en-us', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                  })}
+                </p>
+              </div>
+              <div className="date">
+                <BiStopwatch />
+                <p>{post.readTime}</p>
+              </div>
+            </div>
+            <div className="author-info">
+              <img
+                className="blog-avatar"
+                src={post.author.photo.url}
+                alt={post.author.name}
+                loading="lazy"
+              />
+              <p>- by {post.author.name}</p>
+            </div>
+          </div>
           <ShareBtn
             shareLink={`https://poolbuilderseoconsultant.com/${post.slug}`}
           />
@@ -107,8 +135,9 @@ export default function Articles({ post }) {
 
 const BlogContent = styled.main`
   .blog-container {
-    max-width: 700px;
+    max-width: 760px;
     margin: 0 auto;
+    padding: 0 1.2rem;
   }
 
   b {
@@ -123,6 +152,13 @@ const BlogContent = styled.main`
     li {
       margin: 0.5rem 0;
     }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   h3 {
@@ -151,6 +187,42 @@ const BlogContent = styled.main`
     margin: 2rem 0;
     a {
       font-weight: 400;
+    }
+  }
+
+  .blog-info {
+    .date {
+      margin-right: 1.5rem;
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .date-time {
+      display: flex;
+    }
+
+    .author-info {
+      display: flex;
+      align-items: center;
+
+      img {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+        margin-left: 0;
+      }
+      span {
+        margin-left: 1rem;
+      }
+    }
+    .blog-avatar {
+      max-width: 2.5rem;
+      border: 2px solid #cf0a0a;
+      border-radius: 100%;
     }
   }
 `

@@ -602,7 +602,7 @@ export default function TampaFL() {
           </Deliverables>
           <Deliverables>
             <img
-              src="/images/seo-expert.png"
+              src="/images/black-seo-expert.png"
               alt="I know what I'm doing."
               title="I know what I'm doing."
               loading="lazy"
