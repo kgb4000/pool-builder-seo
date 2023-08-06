@@ -4,12 +4,27 @@ import styled from 'styled-components'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Button from '../../components/Button'
+import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function Locations() {
+  const SEO = {
+    title:
+      'I Help Pool Builders in These Locations | Pool Builder SEO Consultant',
+    description: `I work with pool companies in these cities.`,
+    type: 'website',
+    canonical: 'https://poolbuilderseoconsultant.com/locations',
+    openGraph: {
+      title:
+        'I Help Pool Builders in These Locations | Pool Builder SEO Consultant',
+      description: 'I work with pool companies in these cities.',
+      type: 'website',
+    },
+  }
   return (
     <>
+      <NextSeo noindex={true} {...SEO} />
       <Nav />
       <div className="hero">
         <div className="container">
