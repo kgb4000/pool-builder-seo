@@ -36,6 +36,8 @@ export default function AtlantaGA() {
         whyMeText="Why Me"
         faqLink="#atlFaq"
         faqtext="FAQ"
+        blogLink="/blog"
+        blogText="Blog"
       />
       <div className="hero">
         <div className="container">

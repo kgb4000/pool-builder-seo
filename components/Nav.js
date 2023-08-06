@@ -12,8 +12,6 @@ const Nav = ({
   whyMeText,
   faqLink,
   faqtext,
-  blogLink,
-  blogText,
 }) => {
   return (
     <>

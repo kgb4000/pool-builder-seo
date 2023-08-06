@@ -7,7 +7,6 @@ import Footer from '../../../components/Footer'
 import { getPosts } from '../../../lib/data'
 import { ArticleJsonLd, NextSeo } from 'next-seo'
 import Button from '../../../components/Button'
-import BlogSection from '../../../components/BlogSection'
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export const getStaticProps = async () => {
@@ -45,9 +44,11 @@ export default function Blog({ data }) {
       />
       <NextSeo {...SEO} />
       <Nav
+        homeLink="/"
+        homeText="Home"
         serviceLink="/#services"
         serviceText="SEO Services"
-        whyMeLink="/#me"
+        whyMeLink="/#why-me"
         whyMeText="Why Me"
         faqLink="/#faq"
         faqtext="FAQ"
