@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getPost, getPosts, getPostsSlugs, getRecentPosts } from '/lib/data'
+import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
 import Bio from '../../components/Bio'

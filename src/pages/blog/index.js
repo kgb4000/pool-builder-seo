@@ -41,7 +41,7 @@ export default function Blog({ data }) {
         title="Blog"
         images={[]}
         authorName="Kester Browne"
-        description="Read posts and articles that can help you improve your website designs to attract more leads and customers to your business."
+        description="Read posts and articles that can help you improve your pool business to attract more leads and customers to your business."
       />
       <NextSeo {...SEO} />
       <Nav />
