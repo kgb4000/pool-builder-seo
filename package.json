@@ -9,8 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.6.1",
+    "graphql": "^16.7.1",
+    "graphql-request": "^6.1.0",
     "next": "13.4.12",
+    "next-seo": "^6.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-share": "^4.4.1",
+    "sass": "^1.63.6",
+    "styled-components": "^6.0.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "prettier": "3.0.1"
   }
 }
