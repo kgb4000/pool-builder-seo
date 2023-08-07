@@ -91,8 +91,8 @@ export default function SanDiegoCA() {
                 They've embraced{' '}
                 <Link href="/pool-builder-search-engine-optimization">
                   pool builder search engine optimization
-                </Link>{' '}
-                or SEO or pool companies.
+                </Link>
+                .
               </p>
               <p>
                 They recognize the goldmine of being effortlessly discovered

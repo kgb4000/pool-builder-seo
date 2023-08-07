@@ -52,7 +52,7 @@ export default function Locations() {
         </div>
       </div>
       <Areas>
-        <div className="container areas">
+        <div className="small-container areas">
           {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-alpine-nj">

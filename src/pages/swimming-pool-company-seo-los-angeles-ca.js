@@ -93,8 +93,8 @@ export default function LosAngelesCA() {
                 They've embraced{' '}
                 <Link href="/pool-builder-search-engine-optimization">
                   pool builder search engine optimization
-                </Link>{' '}
-                or SEO or pool companies.
+                </Link>
+                .
               </p>
               <p>
                 They recognize the goldmine of being effortlessly discovered
@@ -340,7 +340,7 @@ export default function LosAngelesCA() {
           </div>
         </div>
       </section>
-      <section id="atlservices">
+      <section id="los-angeles-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -603,7 +603,7 @@ export default function LosAngelesCA() {
           </div>
         </div>
       </section>
-      <section id="atl-why-me">
+      <section id="why-me-los-angeles">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -828,7 +828,7 @@ export default function LosAngelesCA() {
           </div>
         </div>
       </section>
-      <FAQ id="atlFaq">
+      <FAQ id="los-angeles-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
