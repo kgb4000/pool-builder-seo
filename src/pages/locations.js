@@ -59,21 +59,21 @@ export default function Locations() {
                 Alpine, NJ
               </Link>
             </p>
-          </div>
-          <div className="location">
+          </div> */}
+          {/* <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-mantolooking-nj">
                 Mantoloking, NJ
               </Link>
             </p>
-          </div>
+          </div> */}
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-annapolis-md">
                 Annapolis, MD
               </Link>
             </p>
-          </div> */}
+          </div>
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-atlanta-ga">
@@ -81,41 +81,17 @@ export default function Locations() {
               </Link>
             </p>
           </div>
-          {/* <div className="location">
+          <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-jacksonville-fl">
                 Jacksonville, FL
               </Link>
             </p>
-          </div> */}
-          {/* <div className="location">
-            <p>
-              <Link href="/swimming-pool-company-seo-miami-fl">Miami, FL</Link>
-            </p>
-          </div> */}
+          </div>
           <div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-las-vegas-nv">
                 Las Vegas, NV
-              </Link>
-            </p>
-          </div>
-          {/* <div className="location">
-            <p>
-              <Link href="/swimming-pool-company-seo-phoenix-az">
-                Phoenix, AZ
-              </Link>
-            </p>
-          </div> */}
-          <div className="location">
-            <p>
-              <Link href="/swimming-pool-company-seo-tampa-fl">Tampa, FL</Link>
-            </p>
-          </div>
-          {/* <div className="location">
-            <p>
-              <Link href="/swimming-pool-company-seo-san-diego-ca">
-                San Diego, CA
               </Link>
             </p>
           </div>
@@ -127,6 +103,38 @@ export default function Locations() {
             </p>
           </div>
           <div className="location">
+            <p>
+              <Link href="/swimming-pool-company-seo-miami-fl">Miami, FL</Link>
+            </p>
+          </div>
+          <div className="location">
+            <p>
+              <Link href="/swimming-pool-company-seo-phoenix-az">
+                Phoenix, AZ
+              </Link>
+            </p>
+          </div>
+          <div className="location">
+            <p>
+              <Link href="/swimming-pool-company-seo-potomac-md">
+                Potomac, MD
+              </Link>
+            </p>
+          </div>
+          <div className="location">
+            <p>
+              <Link href="/swimming-pool-company-seo-tampa-fl">Tampa, FL</Link>
+            </p>
+          </div>
+          <div className="location">
+            <p>
+              <Link href="/swimming-pool-company-seo-san-diego-ca">
+                San Diego, CA
+              </Link>
+            </p>
+          </div>
+
+          {/*<div className="location">
             <p>
               <Link href="/swimming-pool-company-seo-riverside-ca">
                 Riverside, CA
