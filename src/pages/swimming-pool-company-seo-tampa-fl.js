@@ -361,9 +361,11 @@ export default function TampaFL() {
                   Keyword Research Service.
                 </p>
                 <p>
-                  I dive deep to identify the most relevant, high-converting
-                  keywords for your pool business in Tampa, anchoring your SEO
-                  strategy on solid data.
+                  I dive deep to identify the most relevant, high-converting{' '}
+                  <Link href="/keyword-research-for-pool-company-seo">
+                    keywords for your pool business
+                  </Link>{' '}
+                  in Tampa, anchoring your SEO strategy on solid data.
                 </p>
                 <p>
                   Our service goes beyond merely compiling a list of popular

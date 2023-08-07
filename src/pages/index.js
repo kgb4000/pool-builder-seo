@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Button from '../../components/Button'
+import { FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
@@ -360,7 +361,7 @@ export default function Home() {
                 </p>
                 <p>
                   As an SEO expert, I've learned how to do{' '}
-                  <Link href="/keyword-research-for-pool-companies">
+                  <Link href="/keyword-research-for-pool-company-seo">
                     keyword research
                   </Link>{' '}
                   to find the most relevant and effective keywords for pool
@@ -674,6 +675,44 @@ export default function Home() {
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
+          <FAQPageJsonLd
+            mainEntity={[
+              {
+                questionName:
+                  'How much does SEO consulting cost for pool builders?',
+                acceptedAnswerText: '3-5 business days.',
+              },
+              {
+                questionName:
+                  'Where can I find information about product recalls?',
+                acceptedAnswerText: `SEO services can cost between $2,000 and $10,000 a month (or more) for your swimming pool company. But how much is it costing you by not doing SEO?
+                Let's see.
+                Missed Opportunities to Reach More Customers.
+                People look for answers to their problems on search engines. If customers looking to by a pool can't find your business when they search for what your services, you're missing out on a big opportunity to get new customers.
+                Low Visibility and Website Presence.
+                Without SEO, it will be harder for your website to appear in search results, leading to fewer visitors and, in the end, fewer sales.
+                Less Credibility.
+                SEO also means ensuring your website is easy to use and navigate. If your website is hard to use, people may think less of your business.
+                Lower Profits.
+                SEO usually gives a much better return on investment in the long run than paid advertising. SEO requires constant work, but the traffic it brings is often more likely to turn into sales than traffic from paid ads.
+                Competitive Disadvantage.
+                If your competitors use SEO and you don't, they'll get more organic search visibility than you. It could bring them more traffic and sales, and you'll be missing out.`,
+              },
+              {
+                questionName: `Can You Guarantee #1 Rankings in Google?`,
+                acceptedAnswerText: `No. 
+                No one can guarantee you the #1 rankings on Google or that you'll be on the first page. Search engine algorithms are complex and constantly changing, making it impossible to guarantee specific rankings.
+                Google itself has stated that no one can guarantee a #1 ranking. They emphasize that ranking highly in search results is determined by a combination of factors, including website quality, relevance, user experience, and the competitiveness of the search landscape.
+                You must be cautious of any SEO expert or agency that promises guaranteed #1 rankings, as it is likely a red flag for unethical practices or misleading claims.
+                It's better to work with an SEO professional who provides a realistic understanding of the process, sets achievable goals, and focuses on long-term success through ethical optimization strategies.`,
+              },
+              {
+                questionName: `Can I do SEO on my own for my pool company?`,
+                acceptedAnswerText: `Yes, it is possible to do SEO on your own. If you are willing to invest time and effort into understanding its principles and best practices, you can do it.
+                Keep in mind that SEO is a continuous and ever-evolving process. Staying updated with the latest trends, algorithm changes, and industry practices is crucial for long-term success. Depending on your available time and resources, you may also consider hiring an experienced SEO professional or agency to assist you in achieving your SEO goals.`,
+              },
+            ]}
+          />
           <div>
             <h3>How much does SEO consulting cost for pool builders?</h3>
             <p>
@@ -681,7 +720,7 @@ export default function Home() {
               for your swimming pool company.
             </p>
             <p>But how much is it costing you by not doing SEO?</p>
-            <p>Let's see</p>
+            <p>Let's see.</p>
             <ul className="faq-list">
               <li>
                 <h4>Missed Opportunities to Reach More Customers</h4>

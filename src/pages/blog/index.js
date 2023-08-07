@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Nav from '../../../components/Nav'
 import Footer from '../../../components/Footer'
 import { getPosts } from '../../../lib/data'
-import { ArticleJsonLd, NextSeo } from 'next-seo'
+import { LogoJsonLd, ArticleJsonLd, NextSeo } from 'next-seo'
 import Button from '../../../components/Button'
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
@@ -35,6 +35,10 @@ export default function Blog({ data }) {
   }
   return (
     <>
+      <LogoJsonLd
+        logo="http://poolbuilderseoconsultant.com/public/images/logo.webp"
+        url="http://poolbuilderseoconsultant.com"
+      />
       <ArticleJsonLd
         url="https://poolbuilderseoconsultant.com/blog"
         title="Blog"

@@ -357,8 +357,11 @@ export default function LasVegasNV() {
               <div>
                 <h3>Keyword Research Service</h3>
                 <p>
-                  Navigate the vast digital ocean with precision with our
-                  Keyword Research Service.
+                  Navigate the vast digital ocean with precision with my{' '}
+                  <Link href="keyword-research-for-pool-company-seo">
+                    keyword research{' '}
+                  </Link>
+                  service.
                 </p>
                 <p>
                   I dive deep to identify the most relevant, high-converting
@@ -380,7 +383,7 @@ export default function LasVegasNV() {
                   your services.
                 </p>
                 <p>
-                  With our Keyword Research Service, I don't just help your
+                  With our keyword research Service, I don't just help your
                   business be seen; I help it be found. Set sail towards a
                   targeted, effective SEO strategy.
                 </p>

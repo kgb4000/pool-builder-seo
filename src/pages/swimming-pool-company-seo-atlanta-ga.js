@@ -440,7 +440,7 @@ export default function AtlantaGA() {
                 <h3>Keyword Research Service</h3>
                 <p>
                   I perform expert{' '}
-                  <Link href="/keyword-research-for-pool-companies">
+                  <Link href="/keyword-research-for-pool-company-seo">
                     keyword research
                   </Link>{' '}
                   and handpick the most potent, conversion-driven keywords
