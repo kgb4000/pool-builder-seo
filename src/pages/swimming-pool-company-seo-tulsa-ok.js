@@ -4,21 +4,37 @@ import styled from 'styled-components'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Button from '../../components/Button'
-import { FAQPageJsonLd } from 'next-seo'
+import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
-export default function Home() {
+export default function TulsaFL() {
+  const SEO = {
+    title:
+      'Swimming Pool SEO for Companies in Tulsa, OK |  I Help Grow Your Business',
+    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Tulsa will set you on the path to success.Book a free call today!`,
+    type: 'website',
+    canonical:
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-tulsa-ok',
+    openGraph: {
+      title:
+        'Swimming Pool SEO for Companies in Tulsa, OK | I Help Grow Your Business',
+      description:
+        'Struggling to make a splash online? My specialized SEO services for pool companies in Tulsa will set you on the path to success. Book a free call today!',
+      type: 'website',
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <Nav
-        homeLink="/"
+        homeLink="/swimming-pool-company-seo-tulsa-ok"
         homeText="Home"
-        serviceLink="#services"
-        serviceText="SEO Services"
-        whyMeLink="#why-me"
+        serviceLink="#tulsa-services"
+        serviceText="Services"
+        whyMeLink="#why-me-tulsa"
         whyMeText="Why Me"
-        faqLink="#faq"
+        faqLink="#tulsa-faq"
         faqtext="FAQ"
         blogLink="/blog"
         blogText="Blog"
@@ -26,12 +42,13 @@ export default function Home() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Hello, I’m the #1 Pool Builder Search Engine Optimization Consultant
+            Swimming Pool Company SEO for Pool Companies in Tulsa, OK
           </h1>
           <div className="subtext">
             <p>
-              I help pool builders and pool service companies get more web
-              traffic, leads, and sales with search engine optimization.
+              I help pool builders and pool service companies in Tulsa, OK get
+              more web traffic, leads, and sales with search engine
+              optimization.
             </p>
             <Button>
               <a href={calendly} target="_blank">
@@ -45,8 +62,8 @@ export default function Home() {
       <section>
         <div className="container">
           <h2 className="title">
-            5 Reasons You Must Work With a Pool Builder Search Engine
-            Optimization Consultant [Like Me!]
+            5 Reasons To Start Local Search Engine Optimization for Your Pool
+            Company in Tulsa, OK
           </h2>
           <p className="subtext">
             Here are five reasons you need a Pool Builder SEO specialist and why
@@ -61,47 +78,29 @@ export default function Home() {
               loading="lazy"
             />
             <div className="grid-item-2">
-              <h3>#1. Other Swimming Pool Companies are Already Doing SEO</h3>
+              <h3>
+                #1. In-Depth Understanding of Your Customers' Online Behavior
+              </h3>
               <p>
-                Every time you look for your services, you see your competitors
-                on the first page.
-              </p>
-              <p>Don't believe me?</p>
-              <p>
-                Search Google for one of your services and see who comes up
-                first, second, or third.
-              </p>
-              <p>It's not by chance or by luck.</p>
-              <p>They are doing SEO.</p>
-              <p>
-                They know how important it is to be easy to find online, so they
-                use SEO strategies to make themselves more visible, attract more
-                customers, and grow their businesses.
+                With SEO, you gain access to a treasure trove of analytics data
+                that paints a detailed picture of your customers' online
+                behavior.
               </p>
               <p>
-                If you don't do SEO for your pool company, you're falling behind
-                and losing customers to your competitors.
+                You can discover what specific pool-related terms they search
+                for, what time of the day they're most active, what their
+                browsing patterns are, and what kind of content they find most
+                engaging.
               </p>
               <p>
-                Customers are looking for you, but they are finding your
-                competitors instead.
+                This isn't just about raw numbers - it's about understanding the
+                motivations, habits, and needs of your potential customers.
               </p>
               <p>
-                Each day without an SEO plan gives competitors a chance to
-                improve their online presence and reputation.
-              </p>
-              <p>
-                Also, the longer you wait to start SEO, the more ground you'll
-                need to make up.
-              </p>
-              <p>
-                SEO is a long-term plan, so don't expect to see results right
-                away.
-              </p>
-              <p>
-                If your competitors are doing SEO and you're not, it'll be more
-                than just losing customers. It'll be an ongoing loss of market
-                share that will become harder to reclaim.
+                This detailed knowledge enables you to tweak not only your
+                website but also your services and marketing strategy to
+                resonate more deeply with your customer base, thereby driving
+                higher conversion rates.
               </p>
               <p>Now let's talk about the second reason.</p>
             </div>
@@ -119,34 +118,22 @@ export default function Home() {
                 #2. You Gain a Competitive Advantage Over Other Pool Companies
               </h3>
               <p>
-                Doing{' '}
-                <Link href="/pool-builder-search-engine-optimization">
-                  pool builder SEO
-                </Link>{' '}
-                gives your business an edge over your competition and helps you
-                stand out in a crowded market.
+                Believe it or not, many pool companies still undervalue SEO,
+                focusing instead on traditional forms of marketing.
               </p>
               <p>
-                A good SEO strategy raises your online visibility and ensures
-                that your business appears near the top of local search results.
+                This presents an incredible opportunity for your business to get
+                ahead.
               </p>
               <p>
-                When you appear at the top, it makes it easier for people to
-                find your pool builder website, which leads to more traffic,
-                leads, and ultimately more sales.
-              </p>
-              <p>SEO also makes your site easier to use.</p>
-              <p>
-                It makes it more likely that people who visit your site will
-                become customers. SEO can also make your business a leader in
-                its field, which can help customers trust you more. It's also
-                important to note that SEO's benefits last for a long time,
-                which makes it a long-term competitive advantage.
+                With a targeted local SEO strategy, your pool company can
+                capture high-intent organic traffic that your competitors are
+                missing out on.
               </p>
               <p>
-                In a nutshell, SEO isn't just about keeping up with your
-                competitors; it's about doing better than them and getting a
-                more significant share of your target market.
+                This can set your brand apart as a forward-thinking, dominant
+                player in the Tulsa pool industry, creating significant
+                advantages in market share and brand recognition.
               </p>
               <p>This brings us to the third reason.</p>
             </div>
@@ -160,24 +147,30 @@ export default function Home() {
               loading="lazy"
             />
             <div className="grid-item-2">
-              <h3>#3. More People Will See Your Pool Company on Google</h3>
+              <h3>
+                #3. Capitalizing on Local Searches for Increased Visibility
+              </h3>
               <p>
-                When your business shows up on the first page of Google, your
-                web presence grows.
-              </p>
-              <p>More people will see your pool company.</p>
-              <p>
-                When your business is on the first page, it's like being on the
-                main street of a busy city.
-              </p>
-              <p>More people will see it.</p>
-              <p>
-                More people will visit your website if they see it and are
-                interested in your services.
+                {' '}
+                <Link href="/pool-builder-search-engine-optimization">
+                  Local SEO
+                </Link>{' '}
+                is an untapped goldmine for many businesses.
               </p>
               <p>
-                And if more people visit your pool company website, you're more
-                likely to get more leads, customers, and sales.
+                When a potential customer in Tulsa searches for "pool companies
+                near me" or "pool services in Tulsa", local SEO ensures your
+                business is a top result.
+              </p>
+              <p>
+                With people increasingly using their smartphones for on-the-go
+                searches, this gives you an excellent opportunity to reach
+                customers who are actively looking for immediate, local pool
+                solutions.
+              </p>
+              <p>
+                This hyperlocal targeting can lead to significant boosts in
+                website traffic, and ultimately, sales.
               </p>
               <p>This brings us to the fourth point.</p>
             </div>
@@ -191,26 +184,30 @@ export default function Home() {
               loading="lazy"
             />
             <div className="grid-item-1">
-              <h3>#4. You Get Leads All Day, Everyday</h3>
-              <p>Your website will work around the clock.</p>
+              <h3>
+                #4. Amplifying Your Influence Over the Customer Buying Cycle
+              </h3>
               <p>
-                Unlike traditional business models, a well-optimized website is
-                like a salesperson employed 24/7 to bring in new customers.
+                The modern customer is savvy and does their homework before
+                making a purchase.
               </p>
               <p>
-                This persistent lead generation is made possible because SEO
-                improves your visibility on search engines, making your business
-                easily discoverable by people searching for the products or
-                services you offer. These are not just any leads but quality
-                leads, as search engine users are typically actively seeking
-                solutions, making them more likely to convert.
+                They will browse different websites, compare options, and read
+                content before deciding which pool company to go with.
               </p>
-              <p>Also, SEO leads are not limited by location. </p>
-              <p>Your business can get customers worldwide.</p>
               <p>
-                SEO isn't just a marketing strategy; it's also an essential
-                business tool that ensures your brand and products are visible
-                and brings in leads every hour of every day.
+                Effective SEO can place your business right in the middle of
+                this research phase.
+              </p>
+              <p>
+                By creating informative, engaging content (think blog posts on
+                pool maintenance, videos on creative pool designs, or
+                infographics on pool safety), you position your brand as a
+                trusted expert.
+              </p>
+              <p>
+                This credibility can be pivotal in influencing the customer's
+                buying decision in your favor.
               </p>
               <p>
                 This leads us to our fifth reason why doing SEO is so important.
@@ -226,32 +223,28 @@ export default function Home() {
               loading="lazy"
             />
             <div className="grid-item-2">
-              <h3>#5. SEO is Cheaper than Social Media</h3>
+              <h3>
+                #5. Future-Proofing Your Business in an Increasingly Digital
+                World
+              </h3>
               <p>
-                Unlike social media platforms, where you often have to keep
-                spending money on ads to reach more people, SEO doesn't charge
-                extra per click or impression to bring in organic traffic.
-              </p>
-              <p>SEO also has effects that last for a longer time.</p>
-              <p>
-                A well-ranked page can keep getting visitors for months or even
-                years, while a post on social media might be forgotten in just a
-                few hours or days.
+                As we move further into the digital age, online visibility will
+                become even more crucial.
               </p>
               <p>
-                SEO also usually leads to higher-quality traffic since people
-                who find your site through search engines actively look for your
-                products or services, making them more likely to buy from you.
+                SEO is not just a strategy for immediate gains; it's about
+                ensuring the long-term viability of your business.
               </p>
               <p>
-                SEO and social media have their uses, but high-quality,
-                long-term traffic from SEO usually gives a better return on
-                investment.
+                A robust SEO strategy adapts to changes in search engine
+                algorithms, technology advancements, and shifts in consumer
+                behavior.
               </p>
               <p>
-                In the end, social media can be a helpful part of your marketing
-                mix, but SEO is often the more cost-effective long-term growth
-                strategy.
+                By investing in SEO now, your pool company can stay ahead of the
+                curve, maintaining a strong online presence and continually
+                attracting new customers no matter how the digital landscape
+                evolves.
               </p>
             </div>
           </Reason>
@@ -262,7 +255,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="services">
+      <section id="tulsa-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -279,34 +272,35 @@ export default function Home() {
               <div>
                 <h3>1-on-1 SEO Consulting</h3>
                 <p>
-                  Are you in need of tangible, impactful results but not sure
-                  where to begin?
+                  Chart your course to digital success with our 1-on-1 SEO
+                  Consulting service.
                 </p>
                 <p>
-                  You don't have to journey alone. Welcome to a unique
-                  collaboration opportunity.
+                  I provide personalized guidance, pairing you with an expert
+                  consultant who understands the unique challenges and
+                  opportunities for pool companies in Tulsa. This service is
+                  more than just a crash course in SEO.
                 </p>
                 <p>
-                  With a proven track record of propelling businesses to the
-                  summit of search results in their cities, I am here to do the
-                  same for you.
+                  It’s a collaborative strategy session that addresses your
+                  specific business goals. I explore your current digital
+                  presence, pinpoint areas of improvement, and devise an
+                  actionable plan tailored to your needs.
                 </p>
                 <p>
-                  Imagine a dedicated Zoom session where your website becomes
-                  the focal canvas. Together, we'll dissect every element,
-                  analyzing strengths and spotlighting opportunities for
-                  optimization.
+                  From demystifying SEO jargon to teaching effective keyword
+                  strategy, local SEO tactics, and data interpretation, I equip
+                  you with the tools and knowledge to navigate your business's
+                  digital future.
                 </p>
                 <p>
-                  This isn't a generic, one-size-fits-all analysis. It's a
-                  bespoke deep dive tailored to your specific business needs,
-                  ensuring actionable insights that pave the way to the top of
-                  the search results. Expect a straightforward, no-nonsense
-                  approach.
+                  Join me for a deep dive into SEO, and emerge with clear
+                  direction and confidence.
                 </p>
                 <p>
-                  No B.S., no jargon, just actionable strategies and real-world
-                  solutions.
+                  With our 1-on-1 SEO Consulting, become the master of your
+                  business's online destiny. Let’s make waves in Tulsa's digital
+                  pool scene together.
                 </p>
               </div>
             </Service>
@@ -322,29 +316,34 @@ export default function Home() {
                 <h3>Local SEO Service</h3>
                 <p>Show up when it really counts the most.</p>
                 <p>
-                  That's when people are searching for to get a pool or get pool
-                  maintenance services.
+                  Elevate your pool company's visibility where it matters most -
+                  in your local Tulsa community.
                 </p>
                 <p>
-                  I'll transform your pool builder website into a machine that
-                  attracts people looking to build a swimming pool. You will
-                  appear in the Google Map pack and the organic search results,
-                  giving you more visibility than your competitors.
+                  Our Local SEO Service propels your business to the forefront
+                  of location-based searches. I amplify your local presence by
+                  refining your online listings, enhancing Google My Business,
+                  and targeting location-specific keywords.
                 </p>
                 <p>
-                  It doesn't matter what <Link href="/locations">location</Link>{' '}
-                  your swimming pool company is in. Annapolis, MD, McLean, VA,
-                  Miami, FL, or Phoenix, AZ.
+                  Our team crafts engaging, local-centric content that resonates
+                  with Tulsa's pool owners, fostering a strong community
+                  connection.
                 </p>
                 <p>
-                  Doesn't matter if you run a one-person swimming pool company
-                  or a pool construction company with a hundred employees, I can
-                  help you.
+                  By managing online reviews and strengthening local
+                  link-building, I not only improve your visibility but also
+                  establish you as Tulsa's trusted pool expert. With our Local
+                  SEO Service, your brand won't just be another name in the
+                  search results; it'll be Tulsa's first choice for pool
+                  services.
                 </p>
                 <p>
-                  You can get the best leads and customers in your industry by
-                  dominating the local search results for your city.
+                  Join us, and let's dive into the heart of your local market,
+                  making waves in Tulsa's digital pool-scape. Make your mark
+                  locally.
                 </p>
+                <p>Choose Pool Builder SEO Consultant.</p>
               </div>
             </Service>
             <Service>
@@ -358,31 +357,36 @@ export default function Home() {
               <div>
                 <h3>Keyword Research Service</h3>
                 <p>
-                  Finding the best and most profitable keywords for your pool
-                  business is a careful process that takes time and experience.
+                  Navigate the vast digital ocean with precision with our
+                  Keyword Research Service.
                 </p>
                 <p>
-                  As an SEO expert, I've learned how to do{' '}
+                  I dive deep to identify the most relevant, high-converting{' '}
                   <Link href="/keyword-research-for-pool-company-seo">
-                    keyword research
+                    keywords for your pool business
                   </Link>{' '}
-                  to find the most relevant and effective keywords for pool
-                  builders, that bring in leads and customers.
+                  in Tulsa, anchoring your SEO strategy on solid data.
                 </p>
                 <p>
-                  With my knowledge, I ensure that the keywords I target align
-                  with your business goals. This brings in targeted traffic that
-                  will likely turn into paying customers. I know how important
-                  it is to attract customers who want pools.
+                  Our service goes beyond merely compiling a list of popular
+                  keywords. I analyze search trends, search volumes, and
+                  competition to craft a robust keyword strategy.
                 </p>
                 <p>
-                  Through careful keyword analysis and research on your
-                  competitors, I find helpful data that can help improve the
-                  visibility and reach of your pool company website. By putting
-                  these keywords in your content and optimizing your website's
-                  structure, I increase your chances of getting customers who
-                  are ready to get a pool.
+                  This strategy guides your content creation, ensuring that your
+                  message reaches the right audience.
                 </p>
+                <p>
+                  The right keywords can cut through the digital noise, helping
+                  your business connect with customers who are actively seeking
+                  your services.
+                </p>
+                <p>
+                  With our Keyword Research Service, I don't just help your
+                  business be seen; I help it be found. Set sail towards a
+                  targeted, effective SEO strategy.
+                </p>
+                <p>Discover the poIr of words.</p>
               </div>
             </Service>
             <Service>
@@ -396,29 +400,36 @@ export default function Home() {
               <div>
                 <h3>SEO Audit Service</h3>
                 <p>
-                  It's been years, and you have yet to figure out why your
-                  business doesn't appear in the search results when you search
-                  for your services.
-                </p>
-                <p>I understand your frustration, and I can help you.</p>
-                <p>
-                  Let's get to the root of the problem by conducting a
-                  comprehensive SEO audit for your website.
+                  Illuminate your path to digital growth with our SEO Audit
+                  Service, a comprehensive examination of your pool company's
+                  online presence.
                 </p>
                 <p>
-                  This audit will uncover the obstacles preventing your website
-                  and pool business from gaining visibility in search results.
+                  In the vast ocean of digital competition, our SEO audit is the
+                  lighthouse guiding you towards improved visibility and
+                  performance. Our detailed audit scrutinizes every aspect of
+                  your website and its current SEO strategies.
                 </p>
                 <p>
-                  By analyzing factors such as website structure, content
-                  optimization, backlinks, and more, we'll identify what's
-                  holding you back and develop a tailored strategy to address
-                  those issues.
+                  I analyze your site structure, keywords, meta descriptions,
+                  content quality, backlink profile, and more. Additionally, I
+                  assess your website's mobile compatibility, page load speeds,
+                  and user experience - critical factors for SEO success.
                 </p>
                 <p>
-                  With the insights we get from the SEO audit, we'll implement
-                  effective solutions that will increase your online presence
-                  and help you get noticed by customers who want pools .
+                  With our SEO Audit Service, I reveal the strengths and
+                  aknesses in your current strategy, uncover hidden
+                  opportunities, and help you understand how your website is
+                  performing against competitors.
+                </p>
+                <p>
+                  This thorough evaluation leads to actionable recommendations
+                  tailored to your business, ensuring the best possible return
+                  on your SEO investment. Navigate your way to digital success.
+                </p>
+                <p>
+                  Trust our SEO Audit Service to guide your Tulsa pool company
+                  to its full online potential.
                 </p>
               </div>
             </Service>
@@ -435,17 +446,37 @@ export default function Home() {
               <div>
                 <h3>Link Building Service</h3>
                 <p>
-                  Does your website have backlinks? Do you know what there are?
-                  If you don't have backlinks, chances are you won't rank high
-                  on Google.
+                  Strengthen your digital presence with our Link Building
+                  Service, designed to forge connections that boost your SEO
+                  performance.
                 </p>
                 <p>
-                  Backlinks are the trust factor that Google uses to rank your
-                  site.
+                  In the world of SEO, links are like recommendations that
+                  validate your website's credibility, making your pool business
+                  more visible and trusted in the eyes of search engines.
                 </p>
                 <p>
-                  I'll find and get you the best backlinks that help your
-                  business gain trust with my safe link-building methods.
+                  Our link building strategy is a blend of quantity and quality.
+                  I pursue a range of link-building tactics, including creating
+                  shareable content, guest blogging, and building relationships
+                  with influencers and complementary businesses within the Tulsa
+                  area.
+                </p>
+                <p>
+                  I go beyond surface-level link exchanges, aiming for links
+                  from reputable, relevant sources that can enhance your
+                  standing in your industry.
+                </p>
+                <p>
+                  Each link I build is like a vote of confidence in your pool
+                  business, elevating your visibility, driving organic traffic,
+                  and ultimately, boosting your credibility in the pool
+                  industry.
+                </p>
+                <p>
+                  Embark on a journey to higher search rankings and increased
+                  credibility with our Link Building Service. Let's build
+                  bridges to success together.
                 </p>
               </div>
             </Service>
@@ -460,23 +491,35 @@ export default function Home() {
               <div>
                 <h3>National SEO Service</h3>
                 <p>
-                  Are you targeting customers across the entire U.S.? I can do
-                  that too.
+                  Elevate your pool company to new heights on a broader scale
+                  with our National SEO Service.
                 </p>
                 <p>
-                  I transform Google into your best customer acquisition
-                  channel. I do this with an organic SEO strategy, meticulous
-                  technical SEO (including user experience and site speed
-                  optimization), compelling pool content marketing, and
-                  strategic link building.
+                  While local SEO roots you in Tulsa's digital soil, my national
+                  approach extends your branches, letting you make waves across
+                  the country.
                 </p>
                 <p>
-                  The result of this comprehensive approach is an exponential
-                  boost in your organic website traffic and a substantial
-                  improvement in keyword rankings. Simply put, our national SEO
-                  strategies are designed not just to meet your expectations,
-                  but to surpass them, driving your business forward in the vast
-                  digital landscape.
+                  Targeting a national audience requires a sophisticated
+                  strategy. I optimize your website for competitive, high-volume
+                  keywords while ensuring your content resonates with diverse
+                  audiences from coast to coast.
+                </p>
+                <p>
+                  I delve into extensive market research, understanding regional
+                  nuances, and emerging pool trends across the nation. My
+                  National SEO Service also focuses on building a robust
+                  backlink profile from reputable, nationwide sources, enhancing
+                  your website's authority and trustworthiness.
+                </p>
+                <p>
+                  I ensure your brand messaging remains consistent, yet
+                  adaptable, capturing the essence of various demographics.
+                  Choose our National SEO Service, and let your Tulsa-based pool
+                  company become a recognized name throughout the United States.
+                </p>
+                <p>
+                  Dive into broader horizons with Pool Builder SEO Consultant.
                 </p>
               </div>
             </Service>
@@ -488,7 +531,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="why-me">
+      <section id="why-me-tulsa">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -504,29 +547,34 @@ export default function Home() {
             <div>
               <h3>#1. I Focus on Your Results</h3>
               <p>
-                As an SEO specialist, my primary focus is on delivering tangible
-                results that drive your pool company forward.
+                As a pool builder SEO consultant, results aren't just numbers on
+                a report – they are the very heartbeat of our partnership.
               </p>
               <p>
-                I understand that SEO is not just about rankings and traffic,
-                but about generating leads, increasing sales, and growing your
-                pool business.
+                I am relentlessly driven by the tangible success of your pool
+                business in Tulsa, shaping every strategy with this ultimate
+                goal in mind.
               </p>
               <p>
-                My strategies are designed with this end goal in mind, seeking
-                not just to improve your website's visibility, but to ensure
-                this visibility leads to conversions and more revenue.
+                From the outset, we align our objectives with your vision.
+                Whether it's driving organic traffic, elevating brand
+                visibility, or increasing sales conversions, our focus remains
+                unwavering.
               </p>
               <p>
-                I monitor and analyze a different metrics to gauge the
-                effectiveness of my work, adjusting strategies as needed to
-                maximize results. Regular reports keep you informed about these
-                results, clearly illustrating the return on your investment.
+                I continually refine my methods, pivoting and adapting, to
+                ensure optimal performance. Your analytics and reporting don't
+                just show progress; they tell a story of your growth. But I
+                don't rest on laurels.
               </p>
               <p>
-                I'm committed to holding myself accountable for your success and
-                will not rest until your SEO campaign delivers the impact it
-                should.
+                Each achievement becomes a stepping stone to the next challenge,
+                always pushing boundaries.
+              </p>
+              <p>
+                Because at the end of the day, it's not about ticking off SEO
+                checkboxes. It's about witnessing your pool company thrive,
+                expand, and dominate your market.
               </p>
             </div>
           </Deliverables>
@@ -574,30 +622,44 @@ export default function Home() {
             />
             <div>
               <h3>#3. I Know What I'm Doing</h3>
+              <p>In the vast landscape of SEO, many claim mastery.</p>
+              <p>But true expertise?</p>
               <p>
-                My knowledge isn't just based on what I know in theory but also
-                on years of helping businesses improve their online visibility
-                and grow.
+                That’s forged through years of hands-on experience, precise
+                execution, and real-world results.
+              </p>
+              <p>That's the distinction I bring.</p>
+              <p>My expertise isn't merely theoretical.</p>
+              <p>
+                It's the product of years diving deep into the trenches,
+                partnering with businesses like yours to enhance their digital
+                footprint and fuel their growth.
               </p>
               <p>
-                I've honed my skills in many fields and have a track record of
-                getting things done.
+                Every strategy I recommend, every technique I employ, is backed
+                by a rich tapestry of success stories and tangible outcomes.
               </p>
               <p>
-                My approach to SEO is holistic, covering everything from keyword
-                research and content creation to technical SEO and link
-                building.
+                While my proficiency spans the entirety of the SEO spectrum,
+                from in-depth keyword analysis and compelling content strategies
+                to intricate technical adjustments and authoritative link
+                acquisition, what truly sets me apart is my commitment to
+                continuous learning.
               </p>
               <p>
-                I keep up with the latest SEO trends and algorithm changes to
-                ensure my strategies are always practical and relevant. I also
-                know how important it is to communicate clearly and work with my
-                clients to help them reach their goals.
+                In an ever-evolving digital realm, I stay ahead of the curve,
+                adapting to the latest trends and algorithm shifts.
               </p>
               <p>
-                When you work with me, you're working with a professional who
-                knows everything there is to know about SEO and how to make it
-                work for your business.
+                Clarity in communication and a collaborative spirit are at the
+                core of my approach. With me, you don't just get an SEO expert;
+                you gain a partner wholly invested in your vision and goals.
+                Choose to collaborate with a seasoned maestro.
+              </p>
+              <p>
+                A professional whose knowledge isn’t just vast but validated,
+                ensuring that SEO isn’t just a tool, but a transformative force
+                for your business.
               </p>
             </div>
           </Deliverables>
@@ -612,25 +674,35 @@ export default function Home() {
             <div className="grid-item-2">
               <h3>#4. I am 100% Transparent</h3>
               <p>
-                It's crucial to keep clients up-to-date on their SEO campaigns
-                at every stage.
-              </p>
-              <p>Not just by telling them what I'm doing but also why.</p>
-              <p>
-                I give regular, detailed reports that show the results of my
-                work. These reports include key performance indicators, metrics,
-                and milestones that have been reached.
-              </p>
-              <p>I'm also honest about problems and how to deal with them.</p>
-              <p>
-                My goal in every communication is to make the complicated world
-                of SEO clear and easy to understand. This way, you're not just a
-                bystander to your SEO strategy but an informed part of it.
+                Transparency isn't just a buzzword for me; it's the cornerstone
+                of our partnership with you.
               </p>
               <p>
-                Being 100% transparent means building trust with my clients and
-                ensuring we work together honestly.
+                In an industry often shrouded in complex jargon and hidden
+                agendas, we shine a light on every step we take on your behalf.
               </p>
+              <p>
+                When you choose us, you're investing not just in top-tier SEO
+                services but also in a partnership built on trust and open
+                communication. We provide clear, regular updates on our
+                strategies, ensuring you're always in the know.
+              </p>
+              <p>
+                Every tactic, every result, every piece of data is shared with
+                you, empowering you to make informed decisions for your pool
+                company.
+              </p>
+              <p>
+                Our 100% transparency pledge means you'll never be left in the
+                dark. With comprehensive reports, open dialogues, and full
+                access to all analytics, you're always at the helm of your SEO
+                journey.
+              </p>
+              <p>
+                Join me, and let's create a future where clarity leads to
+                unparalleled success for your pool business in Tulsa.
+              </p>
+              <p>Your vision, my transparency – a match made for growth.</p>
             </div>
           </Deliverables>
           <Deliverables>
@@ -642,26 +714,37 @@ export default function Home() {
             />
             <div>
               <h3>#5. I Never Work With Your Competition</h3>
+              <p>Dedication and exclusivity are at the heart of our ethos.</p>
               <p>
-                My policy is simple and straightforward: I never work with other
-                pool companies in your area.
+                With our "I Never Work With Your Competition" commitment, we
+                offer you more than just SEO expertise; we offer undivided
+                loyalty.
               </p>
               <p>
-                I strongly believe in providing my clients with exclusive
-                services, and this means dedicating my skills and resources to a
-                single business per industry in a given market area. This
-                principle ensures that I am fully invested in your success,
-                without any conflicting interests.
+                We understand that in the competitive pool industry, especially
+                in a hub like Tulsa, having a unique edge is paramount. When you
+                partner with me, you're not just another client; you're our
+                exclusive partner in your niche.
               </p>
               <p>
-                It also guarantees that the strategies, insights, and
-                competitive advantages I develop for your pool business are
-                unique to you and not shared with your competitors.
+                This means we channel all our industry-specific strategies,
+                insights, and innovations towards your business and your
+                business alone.
               </p>
               <p>
-                I am committed to this principle of exclusivity as it enables me
-                to focus completely on helping your business dominate your
-                industry's search engine results.
+                By committing solely to your brand, we ensure that every
+                tailored strategy and proprietary technique we employ gives you
+                a distinct advantage.
+              </p>
+              <p>
+                Your success becomes our success, creating a symbiotic
+                relationship where your growth is our primary goal. Stand out,
+                rise above, and let's make your pool business the unparalleled
+                choice in Tulsa.
+              </p>
+              <p>
+                With our unwavering commitment, your competition won't just be
+                outpaced; they'll be left wondering how you did it.
               </p>
             </div>
           </Deliverables>
@@ -672,57 +755,19 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="faq">
+      <section id="tulsa-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
-          <FAQPageJsonLd
-            mainEntity={[
-              {
-                questionName:
-                  'How much does SEO consulting cost for pool builders?',
-                acceptedAnswerText: '3-5 business days.',
-              },
-              {
-                questionName:
-                  'Where can I find information about product recalls?',
-                acceptedAnswerText: `SEO services can cost between $2,000 and $10,000 a month (or more) for your swimming pool company. But how much is it costing you by not doing SEO?
-                Let's see.
-                Missed Opportunities to Reach More Customers.
-                People look for answers to their problems on search engines. If customers looking to by a pool can't find your business when they search for what your services, you're missing out on a big opportunity to get new customers.
-                Low Visibility and Website Presence.
-                Without SEO, it will be harder for your website to appear in search results, leading to fewer visitors and, in the end, fewer sales.
-                Less Credibility.
-                SEO also means ensuring your website is easy to use and navigate. If your website is hard to use, people may think less of your business.
-                Lower Profits.
-                SEO usually gives a much better return on investment in the long run than paid advertising. SEO requires constant work, but the traffic it brings is often more likely to turn into sales than traffic from paid ads.
-                Competitive Disadvantage.
-                If your competitors use SEO and you don't, they'll get more organic search visibility than you. It could bring them more traffic and sales, and you'll be missing out.`,
-              },
-              {
-                questionName: `Can You Guarantee #1 Rankings in Google?`,
-                acceptedAnswerText: `No. 
-                No one can guarantee you the #1 rankings on Google or that you'll be on the first page. Search engine algorithms are complex and constantly changing, making it impossible to guarantee specific rankings.
-                Google itself has stated that no one can guarantee a #1 ranking. They emphasize that ranking highly in search results is determined by a combination of factors, including website quality, relevance, user experience, and the competitiveness of the search landscape.
-                You must be cautious of any SEO expert or agency that promises guaranteed #1 rankings, as it is likely a red flag for unethical practices or misleading claims.
-                It's better to work with an SEO professional who provides a realistic understanding of the process, sets achievable goals, and focuses on long-term success through ethical optimization strategies.`,
-              },
-              {
-                questionName: `Can I do SEO on my own for my pool company?`,
-                acceptedAnswerText: `Yes, it is possible to do SEO on your own. If you are willing to invest time and effort into understanding its principles and best practices, you can do it.
-                Keep in mind that SEO is a continuous and ever-evolving process. Staying updated with the latest trends, algorithm changes, and industry practices is crucial for long-term success. Depending on your available time and resources, you may also consider hiring an experienced SEO professional or agency to assist you in achieving your SEO goals.`,
-              },
-            ]}
-          />
           <div>
             <h3>How much does SEO consulting cost for pool builders?</h3>
             <p>
-              When considering the expense of SEO services, which can range from
-              $2,000 to $10,000 monthly for pool businesses, it's vital to weigh
-              the cost against the missed potential by not investing in SEO.
+              SEO services can cost between $2,000 and $10,000 a month (or more)
+              for your swimming pool company.
             </p>
-            <p>Here's what you could be leaving on the table:</p>
+            <p>But how much is it costing you by not doing SEO?</p>
+            <p>Let's see</p>
             <ul className="faq-list">
               <li>
                 <h4>Missed Opportunities to Reach More Customers</h4>
@@ -913,7 +958,7 @@ export default function Home() {
             <p>
               I am a{' '}
               <Link href="/pool-builder-search-engine-optimization">
-                pool builder SEO
+                pool builder search engine optimization
               </Link>{' '}
               specialist.
             </p>

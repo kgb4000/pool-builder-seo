@@ -23,13 +23,13 @@ export default function Blog({ data }) {
   const SEO = {
     title:
       'SEO Blog for Pool Companies | Learn To Use SEO & Grow Your Business',
-    description: `Use our free and insightful marketing tips to grow your business with search engine optimization for pool companies.`,
+    description: `Use our free and insightful marketing tips to grow your business with search engine optimization for swimming pool companies.`,
     type: 'website',
     canonical: 'https://poolbuilderseoconsultant.com/blog',
     openGraph: {
       title: 'SEO Blog for Pool Builders and Pool Service Companies',
       description:
-        'Use our free and insightful marketing tips to grow your business with search engine optimization for pool companies.',
+        'Use our free and insightful marketing tips to grow your business with search engine optimization for swimming pool companies.',
       type: 'website',
     },
   }
@@ -61,7 +61,7 @@ export default function Blog({ data }) {
       />
       <div className="hero">
         <div className="container">
-          <h1 className="title">SEO Blog for Pool Companies</h1>
+          <h1 className="title">SEO Blog for Swimming Pool Companies</h1>
           <div className="subtext">
             <p>
               Free and insightful pro marketing tips for pool builders and pool

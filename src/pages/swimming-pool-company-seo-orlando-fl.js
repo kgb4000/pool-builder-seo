@@ -8,19 +8,19 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
-export default function AtlantaGA() {
+export default function VirginiaBeachVA() {
   const SEO = {
     title:
-      'Swimming Pool SEO for Companies in Atlanta, GA |  I Help Grow Your Business',
-    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Atlanta will set you on the path to success. Book a call today!`,
+      'Swimming Pool SEO for Companies in Orlando, FL |  I Help Grow Your Business',
+    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Orlando will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-atlanta-ga',
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-virginia-beach-va',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Atlanta, GA |  I Help Grow Your Business',
+        'Swimming Pool SEO for Companies in Orlando, FL |  I Help Grow Your Business',
       description:
-        'Struggling to make a splash online? My specialized SEO services for pool companies in Atlanta will set you on the path to success. Book a call today!',
+        'Struggling to make a splash online? My specialized SEO services for pool companies in Orlando will set you on the path to success. Book a call today!',
       type: 'website',
     },
   }
@@ -28,13 +28,13 @@ export default function AtlantaGA() {
     <>
       <NextSeo {...SEO} />
       <Nav
-        homeLink="/swimming-pool-company-seo-atlanta-ga"
+        homeLink="/swimming-pool-company-seo-orlando-fl"
         homeText="Home"
-        serviceLink="#atlservices"
+        serviceLink="#orlando-services"
         serviceText="SEO Services"
-        whyMeLink="#atl-why-me"
+        whyMeLink="#why-me-orlando"
         whyMeText="Why Me"
-        faqLink="#atlFaq"
+        faqLink="#orlando-faq"
         faqtext="FAQ"
         blogLink="/blog"
         blogText="Blog"
@@ -42,11 +42,11 @@ export default function AtlantaGA() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Swimming Pool Company SEO for Pool Companies in Atlanta, GA
+            Swimming Pool Company SEO for Pool Companies in Orlando, FL
           </h1>
           <div className="subtext">
             <p>
-              I help pool builders and pool service companies in Atlanta, GA get
+              I help pool builders and pool service companies in Orlando get
               more web traffic, leads, and sales with search engine
               optimization.
             </p>
@@ -63,7 +63,7 @@ export default function AtlantaGA() {
         <div className="container">
           <h2 className="title">
             5 Reasons To Start Local Search Engine Optimization for Your Pool
-            Company in Atlanta
+            Company in Orlando
           </h2>
           <p className="subtext">
             Here are five reasons you need a Pool Builder SEO specialist and why
@@ -92,7 +92,7 @@ export default function AtlantaGA() {
               <p>
                 They've embraced{' '}
                 <Link href="/pool-builder-search-engine-optimization">
-                  pool builder search engine optimization
+                  pool builder SEO
                 </Link>
                 .
               </p>
@@ -159,7 +159,7 @@ export default function AtlantaGA() {
               </p>
               <p>
                 By leading the charge in the digital domain, your brand won't
-                just be known as another player in the Atlanta pool industry.
+                just be known as another player in the Orlando pool industry.
                 Instead, it will be recognized as a visionary leader, an
                 innovator that's setting industry benchmarks.
               </p>
@@ -189,10 +189,10 @@ export default function AtlantaGA() {
                 businesses, surprisingly, haven't stumbled upon yet: Local SEO.
               </p>
               <p>
-                Imagine this scenario: A homeowner in Atlanta, lounging in their
+                Imagine this scenario: A homeowner in Orlando, lounging in their
                 backyard on a sunny day, thinks about getting a new pool. They
                 instinctively reach for their smartphone and punch in "best pool
-                companies in Atlanta" or "nearby pool maintenance".
+                companies in Orlando" or "nearby pool maintenance".
               </p>
               <p>
                 Now, with a robust local SEO strategy in place, your business
@@ -340,7 +340,7 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <section id="atlservices">
+      <section id="orlando-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -362,7 +362,7 @@ export default function AtlantaGA() {
                 </p>
                 <p>
                   When you partner with me, you’re teaming up with an expert
-                  finely tuned to the unique intricacies of the Atlanta pool
+                  finely tuned to the unique intricacies of the Orlando pool
                   industry.
                 </p>
                 <p>
@@ -382,7 +382,7 @@ export default function AtlantaGA() {
                 </p>
                 <p>
                   Harness our expertise, and let’s collaboratively elevate your
-                  digital footprint, setting you apart in Atlanta's competitive
+                  digital footprint, setting you apart in Orlando's competitive
                   pool market.
                 </p>
               </div>
@@ -400,7 +400,7 @@ export default function AtlantaGA() {
                 <p>Show up when it really counts the most.</p>
                 <p>
                   Boost your pool company's prominence right where it’s most
-                  impactful – in the heart of the Atlanta community.
+                  impactful – in the heart of the Orlando community.
                 </p>
                 <p>
                   With our Local SEO Service, we don’t just get you on the map;
@@ -413,17 +413,17 @@ export default function AtlantaGA() {
                 </p>
                 <p>
                   Beyond the technical, our crafted content strikes a chord with
-                  Atlanta pool enthusiasts, building a palpable community bond.
+                  Orlando pool enthusiasts, building a palpable community bond.
                 </p>
                 <p>
                   Through proactive online review management and fortified local
                   link-building, we don’t just aim to amplify your visibility.
                   Our goal is to cement your reputation as the go-to pool
-                  maestro in Atlanta.
+                  maestro in Orlando.
                 </p>
                 <p>
                   With us, you're not just a name in a sea of results; you're
-                  Atlanta's premier pool authority. Dive deep into the local
+                  Orlando's premier pool authority. Dive deep into the local
                   digital landscape with us.
                 </p>
               </div>
@@ -440,11 +440,11 @@ export default function AtlantaGA() {
                 <h3>Keyword Research Service</h3>
                 <p>
                   I perform expert{' '}
-                  <Link href="/keyword-research-for-swimming-pool-companies">
+                  <Link href="/keyword-research-for-pool-company-seo">
                     keyword research
                   </Link>{' '}
                   and handpick the most potent, conversion-driven keywords
-                  tailored for your Atlanta pool business.
+                  tailored for your Orlando pool business.
                 </p>
                 <p>
                   My approach grounds your SEO efforts in rich data and
@@ -512,7 +512,7 @@ export default function AtlantaGA() {
                 </p>
                 <p>
                   Maximize your digital ROI. Get an SEO Audit and unlock the
-                  zenith of online potential for your Atlanta pool enterprise.
+                  zenith of online potential for your Orlando pool enterprise.
                 </p>
               </div>
             </Service>
@@ -542,7 +542,7 @@ export default function AtlantaGA() {
                 </p>
                 <p>
                   From crafting shareable content and guest posts to forging
-                  ties with other Atlanta influencers and aligned businesses, my
+                  ties with other Orlando influencers and aligned businesses, my
                   strategies are curated for impact.
                 </p>
                 <p>
@@ -568,9 +568,9 @@ export default function AtlantaGA() {
               <div>
                 <h3>National SEO Service</h3>
                 <p>
-                  While local SEO anchors your pool company firmly in Atlanta,
-                  our National SEO thrusts you onto the broader American stage.
-                  Mastering the national scene demands finesse.
+                  While local SEO anchors your pool company firmly in Virginia
+                  Beach, our National SEO thrusts you onto the broader American
+                  stage. Mastering the national scene demands finesse.
                 </p>
                 <p>
                   By focusing on high-impact keywords and crafting content that
@@ -587,7 +587,7 @@ export default function AtlantaGA() {
                   maintains its unique voice for various demographics.
                 </p>
                 <p>
-                  With our National SEO Service, let your Atlanta pool brand
+                  With our National SEO Service, let your Orlando pool brand
                   splash onto the national scene.
                 </p>
                 <p>Let's expand your reach togerther.</p>
@@ -601,7 +601,7 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <section id="atl-why-me">
+      <section id="why-me-orlando">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -623,8 +623,8 @@ export default function AtlantaGA() {
                 a mere metric—it's the core of our collaboration.
               </p>
               <p>
-                Every strategy I craft aims at tangible growth for your Atlanta
-                pool business.
+                Every strategy I craft aims at tangible growth for your Virginia
+                Beach pool business.
               </p>
               <p>
                 From day one, we sync our goals with your aspirations, be it
@@ -759,7 +759,7 @@ export default function AtlantaGA() {
               </p>
               <p>
                 Every action, every outcome, every metric is laid bare, enabling
-                you to make enlightened choices for your Atlanta pool business.
+                you to make enlightened choices for your Orlando pool business.
               </p>
               <p>
                 Our unwavering commitment to transparency ensures you're never
@@ -795,7 +795,7 @@ export default function AtlantaGA() {
               <p>
                 I offer more than just unparalleled SEO expertise – I pledge
                 allegiance to your brand. In the cutthroat pool sector of
-                Atlanta, standing out is everything.
+                Orlando, standing out is everything.
               </p>
               <p>
                 When you align with us, you become more than a client – you're
@@ -809,7 +809,7 @@ export default function AtlantaGA() {
               <p>Your triumph is mine.</p>
               <p>
                 Our partnership is built on mutual growth aspirations. Let's
-                transform your pool enterprise into Atlanta's uncontested
+                transform your pool enterprise into Orlando's uncontested
                 leader.
               </p>
               <p>
@@ -825,14 +825,15 @@ export default function AtlantaGA() {
           </div>
         </div>
       </section>
-      <FAQ id="atlFaq">
+      <FAQ id="orlando-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
           <div>
             <h3>
-              How much does SEO consulting cost for pool companies in Atlanta?
+              How much does SEO consulting cost for pool companies in Virginia
+              Beach?
             </h3>
             <p>
               When considering the expense of SEO services, which can range from
@@ -1062,7 +1063,7 @@ export default function AtlantaGA() {
         <div className="small-container">
           <h2 className="title">
             Meet Your Dedicated SEO Specialist Ready to Boost Your Traffic,
-            Leads and Sales for Your Atlanta Swimming Pool Company
+            Leads and Sales for Your Orlando Swimming Pool Company
           </h2>
           <img
             src="/images/kgb4000-circle.jpg"
