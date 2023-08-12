@@ -10,15 +10,15 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function SanDiegoCA() {
   const SEO = {
-    title: 'Swimming Pool SEO for Pool Companies in San Diego, CA',
-    description: `Struggling to make a splash online? My specialized SEO services for pool companies in San Diego will set you on the path to success. Book a call today!`,
+    title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
+    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Houston will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-san-diego-ca',
     openGraph: {
-      title: 'Swimming Pool SEO for Pool Companies in San Diego, CA',
+      title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
       description:
-        'Struggling to make a splash online? My specialized SEO services for pool companies in San Diego will set you on the path to success. Book a call today!',
+        'Struggling to make a splash online? My specialized SEO services for pool companies in Houston will set you on the path to success. Book a call today!',
       type: 'website',
     },
   }
@@ -26,13 +26,13 @@ export default function SanDiegoCA() {
     <>
       <NextSeo {...SEO} />
       <Nav
-        homeLink="/swimming-pool-company-seo-san-diego-ca"
+        homeLink="/swimming-pool-company-seo-houston-tx"
         homeText="Home"
-        serviceLink="#san-diego-services"
+        serviceLink="#houston-services"
         serviceText="SEO Services"
-        whyMeLink="#why-me-san-diego"
+        whyMeLink="#why-me-houston"
         whyMeText="Why Me"
-        faqLink="#san-diego-faq"
+        faqLink="#houston-faq"
         faqtext="FAQ"
         blogLink="/blog"
         blogText="Blog"
@@ -40,12 +40,12 @@ export default function SanDiegoCA() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Swimming Pool Company SEO for Pool Companies in San Diego, CA
+            Swimming Pool Company SEO for Pool Companies in Houston, TX
           </h1>
           <div className="subtext">
             <p>
-              I help pool builders and pool service companies in San Diego, CA
-              get more web traffic, leads, and sales with search engine
+              I help pool builders and pool service companies in Houston, TX get
+              more web traffic, leads, and sales with search engine
               optimization.
             </p>
             <Button>
@@ -61,7 +61,7 @@ export default function SanDiegoCA() {
         <div className="container">
           <h2 className="title">
             5 Reasons To Start Local Search Engine Optimization for Your Pool
-            Company in San Diego
+            Company in Houston
           </h2>
           <p className="subtext">
             Here are five reasons you need a Pool Builder SEO specialist and why
@@ -157,7 +157,7 @@ export default function SanDiegoCA() {
               </p>
               <p>
                 By leading the charge in the digital domain, your brand won't
-                just be known as another player in the San Diego pool industry.
+                just be known as another player in the Houston pool industry.
                 Instead, it will be recognized as a visionary leader, an
                 innovator that's setting industry benchmarks.
               </p>
@@ -339,7 +339,7 @@ export default function SanDiegoCA() {
           </div>
         </div>
       </section>
-      <section id="san-diego-services">
+      <section id="houston-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -361,7 +361,7 @@ export default function SanDiegoCA() {
                 </p>
                 <p>
                   When you partner with me, you’re teaming up with an expert
-                  finely tuned to the unique intricacies of the San Diego pool
+                  finely tuned to the unique intricacies of the Houston pool
                   industry.
                 </p>
                 <p>
@@ -381,8 +381,8 @@ export default function SanDiegoCA() {
                 </p>
                 <p>
                   Harness our expertise, and let’s collaboratively elevate your
-                  digital footprint, setting you apart in San Diego's
-                  competitive pool market.
+                  digital footprint, setting you apart in Houston's competitive
+                  pool market.
                 </p>
               </div>
             </Service>
@@ -399,7 +399,7 @@ export default function SanDiegoCA() {
                 <p>Show up when it really counts the most.</p>
                 <p>
                   Boost your pool company's prominence right where it’s most
-                  impactful – in the heart of the San Diego community.
+                  impactful – in the heart of the Houston community.
                 </p>
                 <p>
                   With our Local SEO Service, we don’t just get you on the map;
@@ -412,18 +412,17 @@ export default function SanDiegoCA() {
                 </p>
                 <p>
                   Beyond the technical, our crafted content strikes a chord with
-                  San Diego pool enthusiasts, building a palpable community
-                  bond.
+                  Houston pool enthusiasts, building a palpable community bond.
                 </p>
                 <p>
                   Through proactive online review management and fortified local
                   link-building, we don’t just aim to amplify your visibility.
                   Our goal is to cement your reputation as the go-to pool
-                  maestro in San Diego.
+                  maestro in Houston.
                 </p>
                 <p>
                   With us, you're not just a name in a sea of results; you're
-                  San Diego's premier pool authority. Dive deep into the local
+                  Houston's premier pool authority. Dive deep into the local
                   digital landscape with us.
                 </p>
               </div>
@@ -444,7 +443,7 @@ export default function SanDiegoCA() {
                     keyword research
                   </Link>{' '}
                   and handpick the most potent, conversion-driven keywords
-                  tailored for your San Diego pool business.
+                  tailored for your Houston pool business.
                 </p>
                 <p>
                   My approach grounds your SEO efforts in rich data and
@@ -512,7 +511,7 @@ export default function SanDiegoCA() {
                 </p>
                 <p>
                   Maximize your digital ROI. Get an SEO Audit and unlock the
-                  zenith of online potential for your San Diego pool enterprise.
+                  zenith of online potential for your Houston pool enterprise.
                 </p>
               </div>
             </Service>
@@ -542,8 +541,8 @@ export default function SanDiegoCA() {
                 </p>
                 <p>
                   From crafting shareable content and guest posts to forging
-                  ties with other San Diego influencers and aligned businesses,
-                  my strategies are curated for impact.
+                  ties with other Houston influencers and aligned businesses, my
+                  strategies are curated for impact.
                 </p>
                 <p>
                   More than just link exchanges, we prioritize partnerships with
@@ -568,7 +567,7 @@ export default function SanDiegoCA() {
               <div>
                 <h3>National SEO Service</h3>
                 <p>
-                  While local SEO anchors your pool company firmly in San Diego,
+                  While local SEO anchors your pool company firmly in Houston,
                   our National SEO thrusts you onto the broader American stage.
                   Mastering the national scene demands finesse.
                 </p>
@@ -587,7 +586,7 @@ export default function SanDiegoCA() {
                   maintains its unique voice for various demographics.
                 </p>
                 <p>
-                  With our National SEO Service, let your San Diego pool brand
+                  With our National SEO Service, let your Houston pool brand
                   splash onto the national scene.
                 </p>
                 <p>Let's expand your reach togerther.</p>
@@ -601,7 +600,7 @@ export default function SanDiegoCA() {
           </div>
         </div>
       </section>
-      <section id="why-me-san-diego">
+      <section id="why-me-houston">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -759,8 +758,7 @@ export default function SanDiegoCA() {
               </p>
               <p>
                 Every action, every outcome, every metric is laid bare, enabling
-                you to make enlightened choices for your San Diego pool
-                business.
+                you to make enlightened choices for your Houston pool business.
               </p>
               <p>
                 Our unwavering commitment to transparency ensures you're never
@@ -810,7 +808,7 @@ export default function SanDiegoCA() {
               <p>Your triumph is mine.</p>
               <p>
                 Our partnership is built on mutual growth aspirations. Let's
-                transform your pool enterprise into San Diego's uncontested
+                transform your pool enterprise into Houston's uncontested
                 leader.
               </p>
               <p>
@@ -826,14 +824,14 @@ export default function SanDiegoCA() {
           </div>
         </div>
       </section>
-      <FAQ id="san-diego-faq">
+      <FAQ id="houston-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
           <div>
             <h3>
-              How much does SEO consulting cost for pool companies in San Diego?
+              How much does SEO consulting cost for pool companies in Houston?
             </h3>
             <p>
               When considering the expense of SEO services, which can range from
@@ -1063,7 +1061,7 @@ export default function SanDiegoCA() {
         <div className="small-container">
           <h2 className="title">
             Meet Your Dedicated SEO Specialist Ready to Boost Your Traffic,
-            Leads and Sales for Your San Diego Swimming Pool Company
+            Leads and Sales for Your Houston Swimming Pool Company
           </h2>
           <img
             src="/images/kgb4000-circle.jpg"

@@ -83,6 +83,11 @@ export default function Locations() {
             </Link>
           </div>
           <div className="location">
+            <Link href="/swimming-pool-company-seo-houston-tx">
+              Houston, TX
+            </Link>
+          </div>
+          <div className="location">
             <Link href="/swimming-pool-company-seo-las-vegas-nv">
               Las Vegas, NV
             </Link>
@@ -120,9 +125,6 @@ export default function Locations() {
               Richmond, VA
             </Link>
           </div>
-          <div className="location">
-            <Link href="/swimming-pool-company-seo-tampa-fl">Tampa, FL</Link>
-          </div>
 
           {/* <div className="location">
             <Link href="/swimming-pool-company-seo-san-diego-ca">
@@ -135,7 +137,10 @@ export default function Locations() {
             </Link>
           </div> */}
         </div>
-        <div className="container areas">
+        <div className="small-container areas">
+          <div className="location">
+            <Link href="/swimming-pool-company-seo-tampa-fl">Tampa, FL</Link>
+          </div>
           <div className="location">
             <Link href="/swimming-pool-company-seo-tulsa-ok">Tulsa, OK</Link>
           </div>
