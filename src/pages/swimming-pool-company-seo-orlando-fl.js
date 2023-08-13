@@ -15,7 +15,7 @@ export default function VirginiaBeachVA() {
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Orlando will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-virginia-beach-va',
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-orlando-fl',
     openGraph: {
       title:
         'Swimming Pool SEO for Companies in Orlando, FL |  I Help Grow Your Business',
