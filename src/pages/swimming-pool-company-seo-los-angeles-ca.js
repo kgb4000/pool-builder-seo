@@ -441,7 +441,7 @@ export default function LosAngelesCA() {
                 <h3>Keyword Research Service</h3>
                 <p>
                   I perform expert{' '}
-                  <Link href="/keyword-research-for-pool-company-seo">
+                  <Link href="/keyword-research-for-swimming-pool-companies">
                     keyword research
                   </Link>{' '}
                   and handpick the most potent, conversion-driven keywords

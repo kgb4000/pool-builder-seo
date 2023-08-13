@@ -363,7 +363,7 @@ export default function Home() {
                 </p>
                 <p>
                   As an SEO expert, I've learned how to do{' '}
-                  <Link href="/keyword-research-for-pool-company-seo">
+                  <Link href="/keyword-research-for-swimming-pool-companies">
                     keyword research
                   </Link>{' '}
                   to find the most relevant and effective keywords for pool

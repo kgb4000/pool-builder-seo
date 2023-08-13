@@ -358,7 +358,7 @@ export default function LasVegasNV() {
                 <h3>Keyword Research Service</h3>
                 <p>
                   Navigate the vast digital ocean with precision with my{' '}
-                  <Link href="keyword-research-for-pool-company-seo">
+                  <Link href="/keyword-research-for-swimming-pool-companies">
                     keyword research{' '}
                   </Link>
                   service.

@@ -362,7 +362,7 @@ export default function TampaFL() {
                 </p>
                 <p>
                   I dive deep to identify the most relevant, high-converting{' '}
-                  <Link href="/keyword-research-for-pool-company-seo">
+                  <Link href="/keyword-research-for-swimming-pool-companies">
                     keywords for your pool business
                   </Link>{' '}
                   in Tampa, anchoring your SEO strategy on solid data.

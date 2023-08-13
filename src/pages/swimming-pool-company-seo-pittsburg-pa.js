@@ -15,7 +15,7 @@ export default function PittsburgPA() {
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Pittsburg will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-Pittsburg-md',
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-pittsburg-pa',
     openGraph: {
       title:
         'Swimming Pool SEO for Companies in Pittsburg, PA |  I Help Grow Your Business',
