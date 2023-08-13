@@ -18,7 +18,7 @@ export default function PhoenixAZ() {
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-phoenix-az',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Phoenix, AZ |  I Help Grow Your Business',
+        'Swimming Pool SEO for Companies in Phoenix, AZ | I Help Grow Your Business',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Phoenix will set you on the path to success. Book a call today!',
       type: 'website',

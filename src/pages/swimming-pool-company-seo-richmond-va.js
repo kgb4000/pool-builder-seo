@@ -18,7 +18,7 @@ export default function RichmondVA() {
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-richmond-va',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Richmond, VA |  I Help Grow Your Business',
+        'Swimming Pool SEO for Companies in Richmond, VA | I Help Grow Your Business',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Richmond will set you on the path to success. Book a call today!',
       type: 'website',

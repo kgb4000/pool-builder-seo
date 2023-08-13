@@ -18,7 +18,7 @@ export default function LasVegasNV() {
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-las-vegas-nv',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Las Vegas NV |  I Help Grow Your Business',
+        'Swimming Pool SEO for Companies in Las Vegas NV | I Help Grow Your Business',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Las Vegas will set you on the path to success. Book a call today!',
       type: 'website',
