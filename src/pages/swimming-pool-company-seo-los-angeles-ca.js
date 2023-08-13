@@ -15,7 +15,7 @@ export default function LosAngelesCA() {
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Los Angeles will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-los-angeles',
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-los-angeles-ca',
     openGraph: {
       title:
         'Swimming Pool SEO for Companies in Los Angeles, CA | Grow Your Business',
