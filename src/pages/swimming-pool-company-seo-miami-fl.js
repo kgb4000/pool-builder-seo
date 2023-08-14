@@ -11,16 +11,15 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 export default function MiamiFL() {
   const SEO = {
     title:
-      'Swimming Pool SEO for Companies in Miami FL |  I Help Grow Your Business',
-    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Miami will set you on the path to success.Book a free call today!`,
+      'Swimming Pool SEO for Pool Companies in Miami FL | Rank #1 in Miami',
+    description: `Finding it hard to ripple the online waters? Let my specialized SEO strategies for Miami pool companies guide your way. Connect with me today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-miami-fl',
     openGraph: {
       title:
-        'Swimming Pool SEO for Companies in Miami FL | I Help Grow Your Business',
-      description:
-        'Struggling to make a splash online? My specialized SEO services for pool companies in Miami will set you on the path to success. Book a free call today!',
+        'Swimming Pool SEO for Pool Companies in Miami FL | Rank #1 in Miami',
+      description: `Finding it hard to ripple the online waters? Let my specialized SEO strategies for Miami pool companies guide your way. Connect with me today!`,
       type: 'website',
     },
   }
@@ -1003,6 +1002,16 @@ export default function MiamiFL() {
               Choose me as your pool builder SEO partner, and together we will
               embark on a transformative journey to elevate your digital
               presence and achieve remarkable results.
+            </p>
+            <p>
+              P.S. I also work with pool companies serving{' '}
+              <Link href="/swimming-pool-company-seo-tampa-fl">Tampa</Link>,{' '}
+              <Link href="/swimming-pool-company-seo-jacksonville-fl">
+                Jacksonville
+              </Link>{' '}
+              and{' '}
+              <Link href="/swimming-pool-company-seo-orlando-fl">Orlando</Link>,
+              FLorida.
             </p>
           </div>
         </div>

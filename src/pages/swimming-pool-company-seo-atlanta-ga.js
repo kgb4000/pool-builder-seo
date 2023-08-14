@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function AtlantaGA() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Atlanta, GA |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Atlanta, GA',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Atlanta will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-atlanta-ga',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Atlanta, GA | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Atlanta, GA',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Atlanta will set you on the path to success. Book a call today!',
       type: 'website',

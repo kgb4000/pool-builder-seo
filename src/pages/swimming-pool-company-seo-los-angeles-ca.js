@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function LosAngelesCA() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Los Angeles, CA |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Los Angeles, CA',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Los Angeles will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-los-angeles-ca',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Los Angeles, CA | Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Los Angeles, CA',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Los Angeles will set you on the path to success. Book a call today!',
       type: 'website',

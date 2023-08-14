@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function VirginiaBeachVA() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Virginia Beach, VA |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Virginia Beach, VA',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Virginia Beach will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-virginia-beach-va',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Virginia Beach, VA | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Virginia Beach, VA',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Virginia Beach will set you on the path to success. Book a call today!',
       type: 'website',

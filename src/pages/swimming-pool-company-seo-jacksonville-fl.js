@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function JacksonvilleFL() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Jacksonville, FL |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Jacksonville, FL',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Jacksonville will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-jacksonville-fl',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Jacksonville, FL | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Jacksonville, FL',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Jacksonville will set you on the path to success. Book a call today!',
       type: 'website',
@@ -1105,6 +1103,13 @@ export default function JacksonvilleFL() {
             <p>
               Partner with me, and let's navigate the digital waters of success
               together.
+            </p>
+            <p>
+              P.S. I also work with pool companies serving{' '}
+              <Link href="/swimming-pool-company-seo-tampa-fl">Tampa</Link>,{' '}
+              <Link href="/swimming-pool-company-seo-miami-fl">Miami</Link> and{' '}
+              <Link href="/swimming-pool-company-seo-orlando-fl">Orlando</Link>,
+              FLorida.
             </p>
             <p>
               Are you ready to start your swimming pool company SEO project

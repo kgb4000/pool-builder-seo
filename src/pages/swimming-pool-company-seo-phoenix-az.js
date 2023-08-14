@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function PhoenixAZ() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Phoenix, AZ |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Phoenix, AZ',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Phoenix will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-phoenix-az',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Phoenix, AZ | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Phoenix, AZ',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Phoenix will set you on the path to success. Book a call today!',
       type: 'website',

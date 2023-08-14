@@ -40,7 +40,7 @@ export default function HoustonTX() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Swimming Pool Company SEO for Pool Companies in Houston, TX
+            Swimming Pool Company SEO for Pool Companies Serving Houston, TX
           </h1>
           <div className="subtext">
             <p>

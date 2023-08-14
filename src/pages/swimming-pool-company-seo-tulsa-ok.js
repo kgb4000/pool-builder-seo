@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function TulsaFL() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Tulsa, OK |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Tulsa, OK',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Tulsa will set you on the path to success.Book a free call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-tulsa-ok',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Tulsa, OK | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Tulsa, OK',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Tulsa will set you on the path to success. Book a free call today!',
       type: 'website',

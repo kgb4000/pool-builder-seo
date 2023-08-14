@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function TampaFL() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Tampa FL |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Tampa FL',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Tampa will set you on the path to success.Book a free call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-tampa-fl',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Tampa FL | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Tampa FL',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Tampa will set you on the path to success. Book a free call today!',
       type: 'website',
@@ -999,6 +997,16 @@ export default function TampaFL() {
               Choose me as your pool builder SEO partner, and together we will
               embark on a transformative journey to elevate your digital
               presence and achieve remarkable results.
+            </p>
+            <p>
+              P.S. I also work with pool companies serving{' '}
+              <Link href="/swimming-pool-company-seo-jacksonville-fl">
+                Jacksonville
+              </Link>{' '}
+              ,<Link href="/swimming-pool-company-seo-miami-fl">Miami</Link>,{' '}
+              and{' '}
+              <Link href="/swimming-pool-company-seo-orlando-fl">Orlando</Link>,
+              FLorida.
             </p>
           </div>
         </div>

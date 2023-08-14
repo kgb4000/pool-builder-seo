@@ -10,15 +10,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
 export default function PotomacMD() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Companies in Potomac, MD |  I Help Grow Your Business',
+    title: 'Swimming Pool SEO for Pool Companies in Potomac, MD',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Potomac will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-potomac-md',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Companies in Potomac, MD | I Help Grow Your Business',
+      title: 'Swimming Pool SEO for Pool Companies in Potomac, MD',
       description:
         'Struggling to make a splash online? My specialized SEO services for pool companies in Potomac will set you on the path to success. Book a call today!',
       type: 'website',
