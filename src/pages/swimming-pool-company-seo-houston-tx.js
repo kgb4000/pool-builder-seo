@@ -8,13 +8,13 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
-export default function SanDiegoCA() {
+export default function HoustonTX() {
   const SEO = {
     title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
     description: `Struggling to make a splash online? My specialized SEO services for pool companies in Houston will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-san-diego-ca',
+      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-houston-tx',
     openGraph: {
       title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
       description:
@@ -439,7 +439,7 @@ export default function SanDiegoCA() {
                 <h3>Keyword Research Service</h3>
                 <p>
                   I perform expert{' '}
-                  <Link href="/keyword-research-for-pool-company-seo">
+                  <Link href="/keyword-research-for-swimming-pool-companies">
                     keyword research
                   </Link>{' '}
                   and handpick the most potent, conversion-driven keywords
