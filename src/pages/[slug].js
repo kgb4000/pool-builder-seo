@@ -115,10 +115,10 @@ export default function Articles({ post }) {
                   })}
                 </p>
               </div>
-              <div className="time-date">
+              {/* <div className="time-date">
                 <BiStopwatch />
                 <p>Read time: {post.readTime}</p>
-              </div>
+              </div> */}
             </div>
           </div>
           <ShareBtn
