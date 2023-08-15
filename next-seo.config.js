@@ -7,12 +7,12 @@ export default {
   title: `Pool Builder SEO Consultant | I Help Pool Builders Increase Cash Flow`,
   type: 'website',
   locale: 'en_US',
-  url: 'https://poolbuilserseoconsultant.com',
+  url: 'https://poolbuilderseoconsultant.com',
   description:
     'Boost your business with specialized SEO strategies for pool builders. Increase online visibility, generate leads, and grow your pool company today!',
   canonical: 'https://poolbuilserseoconsultant.com',
   openGraph: {
-    url: 'https://poolbuilserseoconsultant.com',
+    url: 'https://poolbuilderseoconsultant.com',
     title: `Pool Builder SEO Consultant | I Help Pool Builders Increase Cash Flow`,
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export default {
       'Boost your business with specialized SEO strategies for pool builders. Increase online visibility, generate leads, and grow your pool company today!',
     images: [
       {
-        url: 'https://poolbuilserseoconsultant.com/public/images/logo.jpg',
+        url: 'https://poolbuilderseoconsultant.com/public/images/logo.jpg',
         width: 1280,
         height: 1024,
         alt: 'Pool Builder SEO Consultant',
@@ -37,7 +37,7 @@ export default {
       'Boost your business with specialized SEO strategies for pool builders. Increase online visibility, generate leads, and grow your pool company today!',
     images: [
       {
-        url: 'https://poolbuilserseoconsultant.com/public/images/logo.jpg',
+        url: 'https://poolbuilderseoconsultant.com/public/images/logo.jpg',
         width: 1280,
         height: 1024,
         alt: 'Pool Builder SEO Consultant',

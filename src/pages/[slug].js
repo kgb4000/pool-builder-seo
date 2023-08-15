@@ -88,13 +88,22 @@ export default function Articles({ post }) {
       <BlogContent>
         <div className="blog-container author-info">
           <h1>{post.postTitle}</h1>
-          <img
+          {/* <img
             src={[post.coverImage.url]}
             alt={post.title}
             title={post.title}
             loading="lazy"
-          />
+          /> */}
           <div className="blog-info">
+            <div className="author-info">
+              <img
+                className="blog-avatar"
+                src={post.author.photo.url}
+                alt={post.author.name}
+                loading="lazy"
+              />
+              <p>- by {post.author.name}</p>
+            </div>
             <div className="date-time">
               <div className="date">
                 <BiCalendar />
@@ -106,19 +115,10 @@ export default function Articles({ post }) {
                   })}
                 </p>
               </div>
-              <div className="date">
+              <div className="time-date">
                 <BiStopwatch />
-                <p>{post.readTime}</p>
+                <p>Read time: {post.readTime}</p>
               </div>
-            </div>
-            <div className="author-info">
-              <img
-                className="blog-avatar"
-                src={post.author.photo.url}
-                alt={post.author.name}
-                loading="lazy"
-              />
-              <p>- by {post.author.name}</p>
             </div>
           </div>
           <ShareBtn
@@ -202,13 +202,18 @@ const BlogContent = styled.main`
   }
 
   .blog-info {
-    .date {
+    display: flex;
+    justify-content: center;
+    .date,
+    .time-date {
       margin-right: 1.5rem;
       display: flex;
       align-items: center;
 
       p {
         margin-left: 0.5rem;
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
       }
     }
 
@@ -219,6 +224,7 @@ const BlogContent = styled.main`
     .author-info {
       display: flex;
       align-items: center;
+      margin-right: 1rem;
 
       img {
         display: inline-block;
@@ -229,11 +235,20 @@ const BlogContent = styled.main`
       span {
         margin-left: 1rem;
       }
+
+      p {
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+      }
     }
     .blog-avatar {
       max-width: 2.5rem;
       border: 2px solid #cf0a0a;
       border-radius: 100%;
+    }
+
+    .date {
+      display:;
     }
   }
 `
