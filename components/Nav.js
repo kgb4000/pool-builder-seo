@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Button from '../components/Button'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
@@ -45,9 +46,7 @@ const Nav = ({
                 <Link href="/blog">Blog</Link>
               </li>
               <li>
-                <a href={calendly} target="_blank">
-                  Book a Call!
-                </a>
+                <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
               </li>
             </ul>
           </nav>

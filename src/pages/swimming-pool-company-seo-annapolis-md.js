@@ -50,11 +50,9 @@ export default function AnnapolisMD() {
               get more web traffic, leads, and sales with search engine
               optimization.
             </p>
-            <Button>
-              <a href={calendly} target="_blank">
-                Book Your SEO Consultation!
-              </a>
-            </Button>
+            <Link href="/free-seo-audit">
+              <Button>Get Your Free SEO Audit &#8594;</Button>
+            </Link>
             <p>Let's have a Zoom call and I'll share my screen!</p>
           </div>
         </div>

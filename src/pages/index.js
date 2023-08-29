@@ -33,11 +33,9 @@ export default function Home() {
               I help pool builders and pool service companies get more web
               traffic, leads, and sales with search engine optimization.
             </p>
-            <Button>
-              <a href={calendly} target="_blank">
-                Book Your SEO Consultation!
-              </a>
-            </Button>
+            <Link href="/free-seo-audit">
+              <Button>Get Your Free SEO Audit &#8594;</Button>
+            </Link>
             <p>Let's have a Zoom call and I'll share my screen!</p>
           </div>
         </div>
@@ -482,9 +480,9 @@ export default function Home() {
             </Service>
           </Services>
           <div className="center">
-            <Button>
-              <a href={calendly}>Get SEO Help Today</a>
-            </Button>
+            <Link href="/free-seo-audit">
+              <Button>Get Your Free SEO Audit &#8594;</Button>
+            </Link>
           </div>
         </div>
       </section>
