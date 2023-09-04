@@ -57,8 +57,8 @@ export default function LasVegasNV() {
       <section>
         <div className="container">
           <h2 className="title">
-            5 Reasons To Start Local Search Engine Optimization for Your Pool
-            Company in Las Vegas, NV
+            5 Reasons To Start doing Search Engine Optimization for Pool
+            Companies in Las Vegas, NV
           </h2>
           <p className="subtext">
             Here are five reasons you need a Pool Builder SEO specialist and why
