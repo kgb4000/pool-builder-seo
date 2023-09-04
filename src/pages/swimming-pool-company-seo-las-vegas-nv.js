@@ -11,13 +11,13 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 export default function LasVegasNV() {
   const SEO = {
     title: 'Swimming Pool SEO for Pool Companies in Las Vegas NV',
-    description: `Can't seem to dive deep into the digital realm? My SEO expertise for Las Vegas pool companies, will guide you to the top. Book a FREE call today!`,
+    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Las Vegas will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-las-vegas-nv',
     openGraph: {
       title: 'Swimming Pool SEO for Pool Companies in Las Vegas NV',
-      description: `Can't seem to dive deep into the digital realm? My SEO expertise for Las Vegas pool companies, will guide you to the top. Book a FREE call today!`,
+      description: `Struggling to make a splash online? My specialized SEO services for pool companies in Las Vegas will set you on the path to success. Book a call today!`,
       type: 'website',
     },
   }
@@ -613,8 +613,8 @@ export default function LasVegasNV() {
           <Deliverables>
             <img
               src="/images/black-seo-expert.png"
-              alt="I know what I'm doing."
-              title="I know what I'm doing."
+              alt="SEO specialist for pool companies."
+              title="SEO specialist for pool companies."
               loading="lazy"
             />
             <div>

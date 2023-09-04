@@ -11,14 +11,14 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 export default function HoustonTX() {
   const SEO = {
     title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
-    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Houston will set you on the path to success. Book a call today!`,
+    description: `I help pool builders and pool service companies in Houston, TX get more web traffic, leads, and sales with search engine optimization.`,
     type: 'website',
     canonical:
       'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-houston-tx',
     openGraph: {
       title: 'Swimming Pool SEO for Pool Companies in Houston, TX',
       description:
-        'Struggling to make a splash online? My specialized SEO services for pool companies in Houston will set you on the path to success. Book a call today!',
+        'I help pool builders and pool service companies in Houston, TX get more web traffic, leads, and sales with search engine optimization.',
       type: 'website',
     },
   }
@@ -40,13 +40,12 @@ export default function HoustonTX() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Swimming Pool Company SEO for Pool Companies Serving Houston, TX
+            Swimming Pool Company SEO for Pool Companies in Houston, TX
           </h1>
           <div className="subtext">
             <p>
-              I help pool builders and pool service companies in Houston, TX get
-              more web traffic, leads, and sales with search engine
-              optimization.
+              I help swimming pool companies in Houston, TX get more web
+              traffic, leads, and sales with search engine optimization.
             </p>
             <Link href="/free-seo-audit">
               <Button>Get Your Free SEO Audit &#8594;</Button>
@@ -62,7 +61,7 @@ export default function HoustonTX() {
             Company in Houston
           </h2>
           <p className="subtext">
-            Here are five reasons you need a Pool Builder SEO specialist and why
+            Here are five reasons you need a Pool Company SEO specialist and why
             you should start practicing SEO on your website
           </p>
           <Reason>
@@ -340,7 +339,7 @@ export default function HoustonTX() {
       <section id="houston-services">
         <div className="container">
           <h2 className="title">
-            My Swimming Pool Builder Search Engine Optimization Services for
+            My Swimming Pool Company Search Engine Optimization Services for
             Companies that Want to Grow
           </h2>
           <Services>
