@@ -8,18 +8,16 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 
-export default function MiamiFL() {
+export default function LasVegasNV() {
   const SEO = {
-    title:
-      'Swimming Pool SEO for Pool Companies in Miami FL | Rank #1 in Miami',
-    description: `Finding it hard to ripple the online waters? Let my specialized SEO strategies for Miami pool companies guide your way. Connect with me today!`,
+    title: 'Swimming Pool SEO for Pool Companies in Las Vegas NV',
+    description: `Struggling to make a splash online? My specialized SEO services for pool companies in Las Vegas will set you on the path to success. Book a call today!`,
     type: 'website',
     canonical:
-      'https://poolbuilderseoconsultant.com/swimming-pool-company-seo-miami-fl',
+      'https://poolbuilderseoconsultant.com/pool-company-seo-las-vegas-nv',
     openGraph: {
-      title:
-        'Swimming Pool SEO for Pool Companies in Miami FL | Rank #1 in Miami',
-      description: `Finding it hard to ripple the online waters? Let my specialized SEO strategies for Miami pool companies guide your way. Connect with me today!`,
+      title: 'Swimming Pool SEO for Pool Companies in Las Vegas NV',
+      description: `Struggling to make a splash online? My specialized SEO services for pool companies in Las Vegas will set you on the path to success. Book a call today!`,
       type: 'website',
     },
   }
@@ -27,13 +25,13 @@ export default function MiamiFL() {
     <>
       <NextSeo {...SEO} />
       <Nav
-        homeLink="/swimming-pool-company-seo-miami-fl"
+        homeLink="/swimming-pool-company-seo-las-vegas-nv"
         homeText="Home"
-        serviceLink="#miami-seo-services"
+        serviceLink="#las-vegas-services"
         serviceText="SEO Services"
-        whyMeLink="#why-me-miami"
+        whyMeLink="#why-me-las-vegas"
         whyMeText="Why Me"
-        faqLink="#miami-faq"
+        faqLink="#las-vegas-faq"
         faqtext="FAQ"
         blogLink="/blog"
         blogText="Blog"
@@ -41,12 +39,12 @@ export default function MiamiFL() {
       <div className="hero">
         <div className="container">
           <h1 className="title">
-            Swimming Pool Company SEO for Pool Companies in Miami, Florida
+            Swimming Pool Company SEO for Pool Companies in Las Vegas, Nevada
           </h1>
           <div className="subtext">
             <p>
-              I help pool builders and pool service companies in Miami, FL get
-              more web traffic, leads, and sales with search engine
+              I help pool builders and pool service companies in Las Vegas, NV
+              get more web traffic, leads, and sales with search engine
               optimization.
             </p>
             <Link href="/free-seo-audit">
@@ -59,8 +57,8 @@ export default function MiamiFL() {
       <section>
         <div className="container">
           <h2 className="title">
-            5 Reasons To Start Local Search Engine Optimization for Your Pool
-            Company in Miami, FL
+            5 Reasons To Start doing Search Engine Optimization for Pool
+            Companies in Las Vegas, NV
           </h2>
           <p className="subtext">
             Here are five reasons you need a Pool Builder SEO specialist and why
@@ -129,7 +127,7 @@ export default function MiamiFL() {
               </p>
               <p>
                 This can set your brand apart as a forward-thinking, dominant
-                player in the Miami pool industry, creating significant
+                player in the Las Vegas pool industry, creating significant
                 advantages in market share and brand recognition.
               </p>
               <p>This brings us to the third reason.</p>
@@ -155,10 +153,9 @@ export default function MiamiFL() {
                 is an untapped goldmine for many businesses.
               </p>
               <p>
-                When a potential customer in Coral Gales, Coconut Grove,
-                Cocopalm, or Camp Biscayne searches for "pool companies near me"
-                or "pool services in Miami", local SEO ensures your business is
-                a top result.
+                When a potential customer in Las Vegas searches for "pool
+                companies near me" or "pool services in Las Vegas", local SEO
+                ensures your business is a top result.
               </p>
               <p>
                 With people increasingly using their smartphones for on-the-go
@@ -253,7 +250,7 @@ export default function MiamiFL() {
           </div>
         </div>
       </section>
-      <section id="miami-seo-services">
+      <section id="las-vegas-services">
         <div className="container">
           <h2 className="title">
             My Swimming Pool Builder Search Engine Optimization Services for
@@ -276,7 +273,7 @@ export default function MiamiFL() {
                 <p>
                   I provide personalized guidance, pairing you with an expert
                   consultant who understands the unique challenges and
-                  opportunities for pool companies in Miami. This service is
+                  opportunities for pool companies in Las Vegas. This service is
                   more than just a crash course in SEO.
                 </p>
                 <p>
@@ -297,8 +294,8 @@ export default function MiamiFL() {
                 </p>
                 <p>
                   With our 1-on-1 SEO Consulting, become the master of your
-                  business's online destiny. Let’s make waves in Miami's digital
-                  pool scene together.
+                  business's online destiny. Let’s make waves in Las Vegas's
+                  digital pool scene together.
                 </p>
               </div>
             </Service>
@@ -315,7 +312,7 @@ export default function MiamiFL() {
                 <p>Show up when it really counts the most.</p>
                 <p>
                   Elevate your pool company's visibility where it matters most -
-                  in your local Miami community.
+                  in your local Las Vegas community.
                 </p>
                 <p>
                   Our Local SEO Service propels your business to the forefront
@@ -325,20 +322,20 @@ export default function MiamiFL() {
                 </p>
                 <p>
                   Our team crafts engaging, local-centric content that resonates
-                  with Miami's pool owners, fostering a strong community
+                  with Las Vegas's pool owners, fostering a strong community
                   connection.
                 </p>
                 <p>
                   By managing online reviews and strengthening local
                   link-building, I not only improve your visibility but also
-                  establish you as Miami's trusted pool expert. With our Local
-                  SEO Service, your brand won't just be another name in the
-                  search results; it'll be Miami's first choice for pool
+                  establish you as Las Vegas's trusted pool expert. With our
+                  Local SEO Service, your brand won't just be another name in
+                  the search results; it'll be Las Vegas's first choice for pool
                   services.
                 </p>
                 <p>
                   Join us, and let's dive into the heart of your local market,
-                  making waves in Miami's digital pool-scape. Make your mark
+                  making waves in Las Vegas's digital pool-scape. Make your mark
                   locally.
                 </p>
                 <p>Choose Pool Builder SEO Consultant.</p>
@@ -355,15 +352,16 @@ export default function MiamiFL() {
               <div>
                 <h3>Keyword Research Service</h3>
                 <p>
-                  Navigate the vast digital ocean with precision with our
-                  Keyword Research Service.
+                  Navigate the vast digital ocean with precision with my{' '}
+                  <Link href="/keyword-research-for-swimming-pool-companies">
+                    keyword research{' '}
+                  </Link>
+                  service.
                 </p>
                 <p>
-                  I dive deep to identify the most relevant, high-converting{' '}
-                  <Link href="/keyword-research-for-swimming-pool-companies">
-                    keywords for your pool business
-                  </Link>{' '}
-                  in Miami, anchoring your SEO strategy on solid data.
+                  I dive deep to identify the most relevant, high-converting
+                  keywords for your pool business in Las Vegas, anchoring your
+                  SEO strategy on solid data.
                 </p>
                 <p>
                   Our service goes beyond merely compiling a list of popular
@@ -380,7 +378,7 @@ export default function MiamiFL() {
                   your services.
                 </p>
                 <p>
-                  With our Keyword Research Service, I don't just help your
+                  With our keyword research Service, I don't just help your
                   business be seen; I help it be found. Set sail towards a
                   targeted, effective SEO strategy.
                 </p>
@@ -426,8 +424,8 @@ export default function MiamiFL() {
                   on your SEO investment. Navigate your way to digital success.
                 </p>
                 <p>
-                  Trust our SEO Audit Service to guide your Miami pool company
-                  to its full online potential.
+                  Trust our SEO Audit Service to guide your Las Vegas pool
+                  company to its full online potential.
                 </p>
               </div>
             </Service>
@@ -457,8 +455,8 @@ export default function MiamiFL() {
                   Our link building strategy is a blend of quantity and quality.
                   I pursue a range of link-building tactics, including creating
                   shareable content, guest blogging, and building relationships
-                  with influencers and complementary businesses within the Miami
-                  area.
+                  with influencers and complementary businesses within the Las
+                  Vegas area.
                 </p>
                 <p>
                   I go beyond surface-level link exchanges, aiming for links
@@ -493,9 +491,9 @@ export default function MiamiFL() {
                   with our National SEO Service.
                 </p>
                 <p>
-                  While local SEO roots you in Miami's digital soil, my national
-                  approach extends your branches, letting you make waves across
-                  the country.
+                  While local SEO roots you in Las Vegas's digital soil, my
+                  national approach extends your branches, letting you make
+                  waves across the country.
                 </p>
                 <p>
                   Targeting a national audience requires a sophisticated
@@ -513,8 +511,9 @@ export default function MiamiFL() {
                 <p>
                   I ensure your brand messaging remains consistent, yet
                   adaptable, capturing the essence of various demographics.
-                  Choose our National SEO Service, and let your Miami-based pool
-                  company become a recognized name throughout the United States.
+                  Choose our National SEO Service, and let your Las Vegas-based
+                  pool company become a recognized name throughout the United
+                  States.
                 </p>
                 <p>
                   Dive into broader horizons with Pool Builder SEO Consultant.
@@ -529,7 +528,7 @@ export default function MiamiFL() {
           </div>
         </div>
       </section>
-      <section id="why-me-miami">
+      <section id="why-me-las-vegas">
         <div className="container">
           <h2 className="title">
             With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me to
@@ -550,7 +549,7 @@ export default function MiamiFL() {
               </p>
               <p>
                 I am relentlessly driven by the tangible success of your pool
-                business in Miami, shaping every strategy with this ultimate
+                business in Las Vegas, shaping every strategy with this ultimate
                 goal in mind.
               </p>
               <p>
@@ -614,8 +613,8 @@ export default function MiamiFL() {
           <Deliverables>
             <img
               src="/images/black-seo-expert.png"
-              alt="I know what I'm doing."
-              title="I know what I'm doing."
+              alt="SEO specialist for pool companies."
+              title="SEO specialist for pool companies."
               loading="lazy"
             />
             <div>
@@ -698,7 +697,7 @@ export default function MiamiFL() {
               </p>
               <p>
                 Join me, and let's create a future where clarity leads to
-                unparalleled success for your pool business in Miami.
+                unparalleled success for your pool business in Las Vegas.
               </p>
               <p>Your vision, my transparency – a match made for growth.</p>
             </div>
@@ -720,8 +719,8 @@ export default function MiamiFL() {
               </p>
               <p>
                 We understand that in the competitive pool industry, especially
-                in a hub like Miami, having a unique edge is paramount. When you
-                partner with me, you're not just another client; you're our
+                in a hub like Las Vegas, having a unique edge is paramount. When
+                you partner with me, you're not just another client; you're our
                 exclusive partner in your niche.
               </p>
               <p>
@@ -738,7 +737,7 @@ export default function MiamiFL() {
                 Your success becomes our success, creating a symbiotic
                 relationship where your growth is our primary goal. Stand out,
                 rise above, and let's make your pool business the unparalleled
-                choice in Miami.
+                choice in Las Vegas.
               </p>
               <p>
                 With our unwavering commitment, your competition won't just be
@@ -753,19 +752,16 @@ export default function MiamiFL() {
           </div>
         </div>
       </section>
-      <section id="miami-faq">
+      <section id="las-vegas-faq">
         <div className="small-container">
           <h2 className="title">
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
           <div>
-            <h3>
-              How much does SEO consulting cost for pool builders in Miami,
-              Florida?
-            </h3>
+            <h3>How much does SEO consulting cost for pool builders?</h3>
             <p>
               SEO services can cost between $2,000 and $10,000 a month (or more)
-              for your swimming pool company in Miami.
+              for your swimming pool company.
             </p>
             <p>But how much is it costing you by not doing SEO?</p>
             <p>Let's see</p>
@@ -1000,16 +996,6 @@ export default function MiamiFL() {
               Choose me as your pool builder SEO partner, and together we will
               embark on a transformative journey to elevate your digital
               presence and achieve remarkable results.
-            </p>
-            <p>
-              P.S. I also work with pool companies serving{' '}
-              <Link href="/swimming-pool-company-seo-tampa-fl">Tampa</Link>,{' '}
-              <Link href="/swimming-pool-company-seo-jacksonville-fl">
-                Jacksonville
-              </Link>{' '}
-              and{' '}
-              <Link href="/swimming-pool-company-seo-orlando-fl">Orlando</Link>,
-              FLorida.
             </p>
           </div>
         </div>
